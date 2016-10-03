@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//sensor_cc1310lp/Application/subdir_rules.mk=UTF-8
+encoding//sensor_cc1310lp/Application/subdir_vars.mk=UTF-8
+encoding//sensor_cc1310lp/HAL/subdir_rules.mk=UTF-8
+encoding//sensor_cc1310lp/HAL/subdir_vars.mk=UTF-8
+encoding//sensor_cc1310lp/ICall/subdir_rules.mk=UTF-8
+encoding//sensor_cc1310lp/ICall/subdir_vars.mk=UTF-8
+encoding//sensor_cc1310lp/Services/subdir_rules.mk=UTF-8
+encoding//sensor_cc1310lp/Services/subdir_vars.mk=UTF-8
+encoding//sensor_cc1310lp/launchpad/subdir_rules.mk=UTF-8
+encoding//sensor_cc1310lp/launchpad/subdir_vars.mk=UTF-8
+encoding//sensor_cc1310lp/makefile=UTF-8
+encoding//sensor_cc1310lp/objects.mk=UTF-8
+encoding//sensor_cc1310lp/sources.mk=UTF-8
+encoding//sensor_cc1310lp/subdir_rules.mk=UTF-8
+encoding//sensor_cc1310lp/subdir_vars.mk=UTF-8
