@@ -69,9 +69,12 @@
 /* The starting address of the application.  Normally the interrupt vectors  */
 /* must be located at the beginning of the application.                      */
 #define FLASH_BASE              0x00000000
-#define FLASH_SIZE              0x0E000
-#define FLASH_LAST_BASE         0x1F000
-#define FLASH_LAST_SIZE         0x1000
+//#define FLASH_SIZE              0x0E000
+#define FLASH_SIZE              0x0F000
+//#define FLASH_LAST_BASE         0x1F000
+//#define FLASH_LAST_SIZE         0x1000
+#define FLASH_LAST_BASE         0x1F800
+#define FLASH_LAST_SIZE         0x800
 #define RAM_BASE                0x20000000
 #define RAM_SIZE                0x3E00
 

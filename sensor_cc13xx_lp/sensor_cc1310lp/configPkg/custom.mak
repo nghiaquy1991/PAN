@@ -7,5 +7,5 @@
 #       or equal to the generated config header
 #
 linker.cmd: package/cfg/app_pem3.xdl
-	$(SED) 's"^\"\(package/cfg/app_pem3cfg.cmd\)\"$""\"C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/sensor/cc13xx/ccs-rfd/sensor_cc1310lp/configPkg/\1\""' package/cfg/app_pem3.xdl > $@
+	$(SED) 's"^\"\(package/cfg/app_pem3cfg.cmd\)\"$""\"D:/Git/PAN/sensor_cc13xx_lp/sensor_cc1310lp/configPkg/\1\""' package/cfg/app_pem3.xdl > $@
 	-$(SETDATE) -r:max package/cfg/app_pem3.h compiler.opt compiler.opt.defs

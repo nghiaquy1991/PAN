@@ -5,7 +5,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.Texas Instruments XDS110 USB Debug Probe_0/Cortex_M3_0" value="${build_artifact:timac_cc13xx}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.Texas Instruments XDS110 USB Debug Probe_0/Cortex_M3_0" value="timac_cc13xx"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:timac_cc13xx}"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Texas Instruments XDS110 USB Debug Probe_0/Cortex_M3_0" value="C:/ti\simplelink\ti-15.4-stack-sdk_2_00_00_25\examples\stack\cc13xx\ccs\Stack-RFD\timac_cc13xx_rfd.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Texas Instruments XDS110 USB Debug Probe_0/Cortex_M3_0" value="D:/Git\PAN\timac_cc13xx\Stack-RFD\timac_cc13xx_rfd.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/timac_cc13xx"/>
 </listAttribute>

@@ -5,7 +5,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.Texas Instruments XDS110 USB Debug Probe_0/Cortex_M3_0" value="${build_artifact:sensor_cc13xx_lp}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.Texas Instruments XDS110 USB Debug Probe_0/Cortex_M3_0" value="sensor_cc13xx_lp"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:sensor_cc13xx_lp}"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Texas Instruments XDS110 USB Debug Probe_0/Cortex_M3_0" value="C:/ti\simplelink\ti-15.4-stack-sdk_2_00_00_25\examples\sensor\cc13xx\ccs-rfd\sensor_cc1310lp\sensor_cc13xx_lp.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Texas Instruments XDS110 USB Debug Probe_0/Cortex_M3_0" value="D:/Git\PAN\sensor_cc13xx_lp\sensor_cc1310lp\sensor_cc13xx_lp.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/sensor_cc13xx_lp"/>
 </listAttribute>

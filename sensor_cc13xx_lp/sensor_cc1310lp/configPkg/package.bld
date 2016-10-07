@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/sensor/cc13xx/ccs-rfd/app.cfg',
+        cfgScript: 'D:/Git/PAN/sensor_cc13xx_lp/app.cfg',
         profile: 'release',
         cfgHome: 'configPkg',
 });
@@ -41,7 +41,7 @@ else {
 
 var thisObj = {
     cfg:        '../app.cfg',
-    outputPath: 'C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/sensor/cc13xx/ccs-rfd/sensor_cc1310lp/configPkg',
+    outputPath: 'D:/Git/PAN/sensor_cc13xx_lp/sensor_cc1310lp/configPkg',
     exeName:    'app' + suffix,
     exeIntName: 'app' + suffix.replace('.', '_'),
     targ:       targ,

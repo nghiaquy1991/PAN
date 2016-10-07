@@ -9,7 +9,7 @@
  */
 
 
--l"C:\ti\simplelink\ti-15.4-stack-sdk_2_00_00_25\examples\sensor\cc13xx\ccs-rfd\sensor_cc1310lp\configPkg\package\cfg\app_pem3.oem3"
+-l"D:\Git\PAN\sensor_cc13xx_lp\sensor_cc1310lp\configPkg\package\cfg\app_pem3.oem3"
 -l"C:/ti/tirtos_cc13xx_cc26xx_2_18_01_04/products/tidrivers_cc13xx_cc26xx_2_16_01_13/packages/ti/mw/display/lib/display.aem3"
 -l"C:/ti/tirtos_cc13xx_cc26xx_2_18_01_04/products/tidrivers_cc13xx_cc26xx_2_16_01_13/packages/ti/mw/lcd/lib/lcd.aem3"
 -l"C:/ti/tirtos_cc13xx_cc26xx_2_18_01_04/products/tidrivers_cc13xx_cc26xx_2_16_01_13/packages/ti/mw/grlib/lib/grlib.aem3"
@@ -17,7 +17,7 @@
 -l"C:/ti/tirtos_cc13xx_cc26xx_2_18_01_04/products/tidrivers_cc13xx_cc26xx_2_16_01_13/packages/ti/drivers/lib/power_cc13xx_tirtos.aem3"
 -l"C:\ti\tirtos_cc13xx_cc26xx_2_18_01_04\products\tidrivers_cc13xx_cc26xx_2_16_01_13\packages\ti\mw\fatfs\lib\release\ti.mw.fatfs.aem3"
 -l"C:/ti/tirtos_cc13xx_cc26xx_2_18_01_04/products/tidrivers_cc13xx_cc26xx_2_16_01_13/packages/ti/drivers/ports/lib/tirtosport.aem3"
--l"C:\ti\simplelink\ti-15.4-stack-sdk_2_00_00_25\examples\sensor\cc13xx\ccs-rfd\src\sysbios\rom_sysbios.aem3"
+-l"D:\Git\PAN\sensor_cc13xx_lp\src\sysbios\rom_sysbios.aem3"
 -l"C:/ti/tirtos_cc13xx_cc26xx_2_18_01_04/products/tidrivers_cc13xx_cc26xx_2_16_01_13/packages/ti/drivers/pdm/lib/pdm_cc13xxware.aem3"
 -l"C:\ti\tirtos_cc13xx_cc26xx_2_18_01_04\products\bios_6_45_02_31\packages\ti\targets\arm\rtsarm\lib\boot.aem3"
 -l"C:\ti\tirtos_cc13xx_cc26xx_2_18_01_04\products\bios_6_45_02_31\packages\ti\targets\arm\rtsarm\lib\auto_init.aem3"

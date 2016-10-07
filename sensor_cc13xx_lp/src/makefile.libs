@@ -1,6 +1,6 @@
 #
 # This file was generated based on the configuration script:
-#     C:\ti\simplelink\ti-15.4-stack-sdk_2_00_00_25\examples\sensor\cc13xx\ccs-rfd\app.cfg
+#     D:\Git\PAN\sensor_cc13xx_lp\app.cfg
 #
 # This makefile may be included in other makefiles that need to build
 # the libraries containing the compiled source files generated as
@@ -14,7 +14,7 @@
 #
 # The absolute path to the generated source directory (at the time the
 # sources were generated) is:
-#    C:\ti\simplelink\ti-15.4-stack-sdk_2_00_00_25\examples\sensor\cc13xx\ccs-rfd\src
+#    D:\Git\PAN\sensor_cc13xx_lp\src
 #
 GEN_SRC_DIR ?= ../src
 
