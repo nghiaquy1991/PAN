@@ -73,9 +73,10 @@
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.C_DIALECT.1982143095" name="C Dialect" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.C_DIALECT" value="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.C_DIALECT.C99" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEFINE.2035990047" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEFINE" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="TEMP_SENSOR"/>
+									<listOptionValue builtIn="false" value="UART_DEBUG"/>
 									<listOptionValue builtIn="false" value="xASSERT_LEDS"/>
 									<listOptionValue builtIn="false" value="CC1310_LAUNCHXL"/>
-									<listOptionValue builtIn="false" value="TI_DRIVERS_LCD_INCLUDED"/>
+									<listOptionValue builtIn="false" value="xTI_DRIVERS_LCD_INCLUDED"/>
 									<listOptionValue builtIn="false" value="BOARD_DISPLAY_EXCLUDE_UART"/>
 									<listOptionValue builtIn="false" value="MODULE_CC13XX_7X7"/>
 									<listOptionValue builtIn="false" value="SET_CCFG_BL_CONFIG_BL_LEVEL=0x00"/>

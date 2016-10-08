@@ -2,12 +2,12 @@
 <link_info>
    <banner>TI ARM Linker PC v5.2.6</banner>
    <copyright>Copyright (c) 1996-2015 Texas Instruments Incorporated</copyright>
-   <link_time>0x57f7e2e8</link_time>
+   <link_time>0x57f8b1f5</link_time>
    <link_errors>0x0</link_errors>
    <output_file>timac_cc13xx_rfd.out</output_file>
    <entry_point>
       <name>startup_entry</name>
-      <address>0xf001</address>
+      <address>0xe001</address>
    </entry_point>
    <input_file_list>
       <input_file id="fl-3">
@@ -98,642 +98,642 @@
    <object_component_list>
       <object_component id="oc-27">
          <name>EntrySection</name>
-         <load_address>0xf000</load_address>
-         <run_address>0xf000</run_address>
+         <load_address>0xe000</load_address>
+         <run_address>0xe000</run_address>
          <size>0x24</size>
          <input_file_ref idref="fl-18"/>
       </object_component>
       <object_component id="oc-201">
          <name>.text</name>
-         <load_address>0xf024</load_address>
-         <run_address>0xf024</run_address>
+         <load_address>0xe024</load_address>
+         <run_address>0xe024</run_address>
          <size>0x112c</size>
          <input_file_ref idref="fl-16b"/>
       </object_component>
       <object_component id="oc-39e">
          <name>.text</name>
-         <load_address>0x10150</load_address>
-         <run_address>0x10150</run_address>
+         <load_address>0xf150</load_address>
+         <run_address>0xf150</run_address>
          <size>0x1120</size>
          <input_file_ref idref="fl-173"/>
       </object_component>
       <object_component id="oc-20d">
          <name>.text</name>
-         <load_address>0x11270</load_address>
-         <run_address>0x11270</run_address>
+         <load_address>0x10270</load_address>
+         <run_address>0x10270</run_address>
          <size>0xe38</size>
          <input_file_ref idref="fl-165"/>
       </object_component>
       <object_component id="oc-2ff">
          <name>.text</name>
-         <load_address>0x120a8</load_address>
-         <run_address>0x120a8</run_address>
+         <load_address>0x110a8</load_address>
+         <run_address>0x110a8</run_address>
          <size>0x9f8</size>
          <input_file_ref idref="fl-166"/>
       </object_component>
       <object_component id="oc-3b0">
          <name>.text</name>
-         <load_address>0x12aa0</load_address>
-         <run_address>0x12aa0</run_address>
+         <load_address>0x11aa0</load_address>
+         <run_address>0x11aa0</run_address>
          <size>0x9d0</size>
          <input_file_ref idref="fl-174"/>
       </object_component>
       <object_component id="oc-33c">
          <name>.text</name>
-         <load_address>0x13470</load_address>
-         <run_address>0x13470</run_address>
+         <load_address>0x12470</load_address>
+         <run_address>0x12470</run_address>
          <size>0x990</size>
          <input_file_ref idref="fl-15f"/>
       </object_component>
       <object_component id="oc-323">
          <name>.text</name>
-         <load_address>0x13e00</load_address>
-         <run_address>0x13e00</run_address>
+         <load_address>0x12e00</load_address>
+         <run_address>0x12e00</run_address>
          <size>0x89c</size>
          <input_file_ref idref="fl-16e"/>
       </object_component>
       <object_component id="oc-3de">
          <name>.text</name>
-         <load_address>0x1469c</load_address>
-         <run_address>0x1469c</run_address>
+         <load_address>0x1369c</load_address>
+         <run_address>0x1369c</run_address>
          <size>0x830</size>
          <input_file_ref idref="fl-162"/>
       </object_component>
       <object_component id="oc-30b">
          <name>.text</name>
-         <load_address>0x14ecc</load_address>
-         <run_address>0x14ecc</run_address>
+         <load_address>0x13ecc</load_address>
+         <run_address>0x13ecc</run_address>
          <size>0x760</size>
          <input_file_ref idref="fl-b"/>
       </object_component>
       <object_component id="oc-1e3">
          <name>.text</name>
-         <load_address>0x1562c</load_address>
-         <run_address>0x1562c</run_address>
+         <load_address>0x1462c</load_address>
+         <run_address>0x1462c</run_address>
          <size>0x760</size>
          <input_file_ref idref="fl-f"/>
       </object_component>
       <object_component id="oc-1ef">
          <name>.text</name>
-         <load_address>0x15d8c</load_address>
-         <run_address>0x15d8c</run_address>
+         <load_address>0x14d8c</load_address>
+         <run_address>0x14d8c</run_address>
          <size>0x73c</size>
          <input_file_ref idref="fl-15b"/>
       </object_component>
       <object_component id="oc-213">
          <name>.text</name>
-         <load_address>0x164c8</load_address>
-         <run_address>0x164c8</run_address>
+         <load_address>0x154c8</load_address>
+         <run_address>0x154c8</run_address>
          <size>0x6f8</size>
          <input_file_ref idref="fl-164"/>
       </object_component>
       <object_component id="oc-207">
          <name>.text</name>
-         <load_address>0x16bc0</load_address>
-         <run_address>0x16bc0</run_address>
+         <load_address>0x15bc0</load_address>
+         <run_address>0x15bc0</run_address>
          <size>0x6e0</size>
          <input_file_ref idref="fl-167"/>
       </object_component>
       <object_component id="oc-219">
          <name>.text</name>
-         <load_address>0x172a0</load_address>
-         <run_address>0x172a0</run_address>
+         <load_address>0x162a0</load_address>
+         <run_address>0x162a0</run_address>
          <size>0x654</size>
          <input_file_ref idref="fl-163"/>
       </object_component>
       <object_component id="oc-392">
          <name>.text</name>
-         <load_address>0x178f4</load_address>
-         <run_address>0x178f4</run_address>
+         <load_address>0x168f4</load_address>
+         <run_address>0x168f4</run_address>
          <size>0x648</size>
          <input_file_ref idref="fl-15e"/>
       </object_component>
       <object_component id="oc-1e9">
          <name>.text</name>
-         <load_address>0x17f3c</load_address>
-         <run_address>0x17f3c</run_address>
+         <load_address>0x16f3c</load_address>
+         <run_address>0x16f3c</run_address>
          <size>0x5dc</size>
          <input_file_ref idref="fl-17"/>
       </object_component>
       <object_component id="oc-31d">
          <name>.text</name>
-         <load_address>0x18518</load_address>
-         <run_address>0x18518</run_address>
+         <load_address>0x17518</load_address>
+         <run_address>0x17518</run_address>
          <size>0x5c8</size>
          <input_file_ref idref="fl-16d"/>
       </object_component>
       <object_component id="oc-357">
          <name>.text</name>
-         <load_address>0x18ae0</load_address>
-         <run_address>0x18ae0</run_address>
+         <load_address>0x17ae0</load_address>
+         <run_address>0x17ae0</run_address>
          <size>0x4f8</size>
          <input_file_ref idref="fl-170"/>
       </object_component>
       <object_component id="oc-46d">
          <name>.text</name>
-         <load_address>0x18fd8</load_address>
-         <run_address>0x18fd8</run_address>
+         <load_address>0x17fd8</load_address>
+         <run_address>0x17fd8</run_address>
          <size>0x4cc</size>
          <input_file_ref idref="fl-15a"/>
       </object_component>
       <object_component id="oc-348">
          <name>.text</name>
-         <load_address>0x194a4</load_address>
-         <run_address>0x194a4</run_address>
+         <load_address>0x184a4</load_address>
+         <run_address>0x184a4</run_address>
          <size>0x45c</size>
          <input_file_ref idref="fl-161"/>
       </object_component>
       <object_component id="oc-2f9">
          <name>.text</name>
-         <load_address>0x19900</load_address>
-         <run_address>0x19900</run_address>
+         <load_address>0x18900</load_address>
+         <run_address>0x18900</run_address>
          <size>0x3f4</size>
          <input_file_ref idref="fl-a"/>
       </object_component>
       <object_component id="oc-398">
          <name>.text</name>
-         <load_address>0x19cf4</load_address>
-         <run_address>0x19cf4</run_address>
+         <load_address>0x18cf4</load_address>
+         <run_address>0x18cf4</run_address>
          <size>0x350</size>
          <input_file_ref idref="fl-16f"/>
       </object_component>
       <object_component id="oc-311">
          <name>.text</name>
-         <load_address>0x1a044</load_address>
-         <run_address>0x1a044</run_address>
+         <load_address>0x19044</load_address>
+         <run_address>0x19044</run_address>
          <size>0x2f4</size>
          <input_file_ref idref="fl-16a"/>
       </object_component>
       <object_component id="oc-461">
          <name>.text</name>
-         <load_address>0x1a338</load_address>
-         <run_address>0x1a338</run_address>
+         <load_address>0x19338</load_address>
+         <run_address>0x19338</run_address>
          <size>0x2c4</size>
          <input_file_ref idref="fl-158"/>
       </object_component>
       <object_component id="oc-473">
          <name>.text</name>
-         <load_address>0x1a5fc</load_address>
-         <run_address>0x1a5fc</run_address>
+         <load_address>0x195fc</load_address>
+         <run_address>0x195fc</run_address>
          <size>0x294</size>
          <input_file_ref idref="fl-171"/>
       </object_component>
       <object_component id="oc-3aa">
          <name>.text</name>
-         <load_address>0x1a890</load_address>
-         <run_address>0x1a890</run_address>
+         <load_address>0x19890</load_address>
+         <run_address>0x19890</run_address>
          <size>0x278</size>
          <input_file_ref idref="fl-168"/>
       </object_component>
       <object_component id="oc-467">
          <name>.text</name>
-         <load_address>0x1ab08</load_address>
-         <run_address>0x1ab08</run_address>
+         <load_address>0x19b08</load_address>
+         <run_address>0x19b08</run_address>
          <size>0x234</size>
          <input_file_ref idref="fl-d"/>
       </object_component>
       <object_component id="oc-305">
          <name>.text</name>
-         <load_address>0x1ad3c</load_address>
-         <run_address>0x1ad3c</run_address>
+         <load_address>0x19d3c</load_address>
+         <run_address>0x19d3c</run_address>
          <size>0x22c</size>
          <input_file_ref idref="fl-9"/>
       </object_component>
       <object_component id="oc-3d1">
          <name>.text</name>
-         <load_address>0x1af68</load_address>
-         <run_address>0x1af68</run_address>
+         <load_address>0x19f68</load_address>
+         <run_address>0x19f68</run_address>
          <size>0x22c</size>
          <input_file_ref idref="fl-176"/>
       </object_component>
       <object_component id="oc-44c">
          <name>.text</name>
-         <load_address>0x1b194</load_address>
-         <run_address>0x1b194</run_address>
+         <load_address>0x1a194</load_address>
+         <run_address>0x1a194</run_address>
          <size>0x21e</size>
          <input_file_ref idref="fl-177"/>
       </object_component>
       <object_component id="oc-50a">
          <name>.text</name>
-         <load_address>0x1b3b2</load_address>
-         <run_address>0x1b3b2</run_address>
+         <load_address>0x1a3b2</load_address>
+         <run_address>0x1a3b2</run_address>
          <size>0x2</size>
          <input_file_ref idref="fl-179"/>
       </object_component>
       <object_component id="oc-317">
          <name>.text</name>
-         <load_address>0x1b3b4</load_address>
-         <run_address>0x1b3b4</run_address>
+         <load_address>0x1a3b4</load_address>
+         <run_address>0x1a3b4</run_address>
          <size>0x200</size>
          <input_file_ref idref="fl-15d"/>
       </object_component>
       <object_component id="oc-2e5">
          <name>.text</name>
-         <load_address>0x1b5b4</load_address>
-         <run_address>0x1b5b4</run_address>
+         <load_address>0x1a5b4</load_address>
+         <run_address>0x1a5b4</run_address>
          <size>0x1f4</size>
          <input_file_ref idref="fl-150"/>
       </object_component>
       <object_component id="oc-3b9">
          <name>.text</name>
-         <load_address>0x1b7a8</load_address>
-         <run_address>0x1b7a8</run_address>
+         <load_address>0x1a7a8</load_address>
+         <run_address>0x1a7a8</run_address>
          <size>0x1ea</size>
          <input_file_ref idref="fl-169"/>
       </object_component>
       <object_component id="oc-511">
          <name>.text</name>
-         <load_address>0x1b992</load_address>
-         <run_address>0x1b992</run_address>
+         <load_address>0x1a992</load_address>
+         <run_address>0x1a992</run_address>
          <size>0x2</size>
          <input_file_ref idref="fl-17a"/>
       </object_component>
       <object_component id="oc-51e">
          <name>.text</name>
-         <load_address>0x1b994</load_address>
-         <run_address>0x1b994</run_address>
+         <load_address>0x1a994</load_address>
+         <run_address>0x1a994</run_address>
          <size>0x1b4</size>
          <input_file_ref idref="fl-172"/>
       </object_component>
       <object_component id="oc-342">
          <name>.text</name>
-         <load_address>0x1bb48</load_address>
-         <run_address>0x1bb48</run_address>
+         <load_address>0x1ab48</load_address>
+         <run_address>0x1ab48</run_address>
          <size>0x190</size>
          <input_file_ref idref="fl-160"/>
       </object_component>
       <object_component id="oc-3a4">
          <name>.text</name>
-         <load_address>0x1bcd8</load_address>
-         <run_address>0x1bcd8</run_address>
+         <load_address>0x1acd8</load_address>
+         <run_address>0x1acd8</run_address>
          <size>0x17c</size>
          <input_file_ref idref="fl-e"/>
       </object_component>
       <object_component id="oc-2d6">
          <name>.text</name>
-         <load_address>0x1be54</load_address>
-         <run_address>0x1be54</run_address>
+         <load_address>0x1ae54</load_address>
+         <run_address>0x1ae54</run_address>
          <size>0x118</size>
          <input_file_ref idref="fl-15"/>
       </object_component>
       <object_component id="oc-4f">
          <name>.text</name>
-         <load_address>0x1bf6c</load_address>
-         <run_address>0x1bf6c</run_address>
+         <load_address>0x1af6c</load_address>
+         <run_address>0x1af6c</run_address>
          <size>0x108</size>
          <input_file_ref idref="fl-19"/>
       </object_component>
       <object_component id="oc-37e">
          <name>.text:NOROM_CRYPTOAesEcb</name>
-         <load_address>0x1c074</load_address>
-         <run_address>0x1c074</run_address>
+         <load_address>0x1b074</load_address>
+         <run_address>0x1b074</run_address>
          <size>0xac</size>
          <input_file_ref idref="fl-154"/>
       </object_component>
       <object_component id="oc-378">
          <name>.text:NOROM_CRYPTOAesLoadKey</name>
-         <load_address>0x1c120</load_address>
-         <run_address>0x1c120</run_address>
+         <load_address>0x1b120</load_address>
+         <run_address>0x1b120</run_address>
          <size>0xac</size>
          <input_file_ref idref="fl-154"/>
       </object_component>
       <object_component id="oc-1fb">
          <name>.text</name>
-         <load_address>0x1c1cc</load_address>
-         <run_address>0x1c1cc</run_address>
+         <load_address>0x1b1cc</load_address>
+         <run_address>0x1b1cc</run_address>
          <size>0xac</size>
          <input_file_ref idref="fl-3"/>
       </object_component>
       <object_component id="oc-2dc">
          <name>.text</name>
-         <load_address>0x1c278</load_address>
-         <run_address>0x1c278</run_address>
+         <load_address>0x1b278</load_address>
+         <run_address>0x1b278</run_address>
          <size>0xa4</size>
          <input_file_ref idref="fl-13"/>
       </object_component>
       <object_component id="oc-2e">
          <name>.text</name>
-         <load_address>0x1c31c</load_address>
-         <run_address>0x1c31c</run_address>
+         <load_address>0x1b31c</load_address>
+         <run_address>0x1b31c</run_address>
          <size>0x9c</size>
          <input_file_ref idref="fl-14b"/>
       </object_component>
       <object_component id="oc-21f">
          <name>.text</name>
-         <load_address>0x1c3b8</load_address>
-         <run_address>0x1c3b8</run_address>
+         <load_address>0x1b3b8</load_address>
+         <run_address>0x1b3b8</run_address>
          <size>0x84</size>
          <input_file_ref idref="fl-15c"/>
       </object_component>
       <object_component id="oc-43">
          <name>.text</name>
-         <load_address>0x1c43c</load_address>
-         <run_address>0x1c43c</run_address>
+         <load_address>0x1b43c</load_address>
+         <run_address>0x1b43c</run_address>
          <size>0x7a</size>
          <input_file_ref idref="fl-14c"/>
       </object_component>
       <object_component id="oc-4ae">
          <name>.text:ChipInfo_GetHwRevision</name>
-         <load_address>0x1c4b8</load_address>
-         <run_address>0x1c4b8</run_address>
+         <load_address>0x1b4b8</load_address>
+         <run_address>0x1b4b8</run_address>
          <size>0x70</size>
          <input_file_ref idref="fl-17b"/>
       </object_component>
       <object_component id="oc-479">
          <name>.text</name>
-         <load_address>0x1c528</load_address>
-         <run_address>0x1c528</run_address>
+         <load_address>0x1b528</load_address>
+         <run_address>0x1b528</run_address>
          <size>0x6c</size>
          <input_file_ref idref="fl-159"/>
       </object_component>
       <object_component id="oc-49">
          <name>.text</name>
-         <load_address>0x1c594</load_address>
-         <run_address>0x1c594</run_address>
+         <load_address>0x1b594</load_address>
+         <run_address>0x1b594</run_address>
          <size>0x6c</size>
          <input_file_ref idref="fl-141"/>
       </object_component>
       <object_component id="oc-3c">
          <name>.text</name>
-         <load_address>0x1c600</load_address>
-         <run_address>0x1c600</run_address>
+         <load_address>0x1b600</load_address>
+         <run_address>0x1b600</run_address>
          <size>0x6a</size>
          <input_file_ref idref="fl-144"/>
       </object_component>
       <object_component id="oc-2ef">
          <name>.text</name>
-         <load_address>0x1c66c</load_address>
-         <run_address>0x1c66c</run_address>
+         <load_address>0x1b66c</load_address>
+         <run_address>0x1b66c</run_address>
          <size>0x68</size>
          <input_file_ref idref="fl-11"/>
       </object_component>
       <object_component id="oc-38c">
          <name>.text</name>
-         <load_address>0x1c6d4</load_address>
-         <run_address>0x1c6d4</run_address>
+         <load_address>0x1b6d4</load_address>
+         <run_address>0x1b6d4</run_address>
          <size>0x62</size>
          <input_file_ref idref="fl-16"/>
       </object_component>
       <object_component id="oc-336">
          <name>.text</name>
-         <load_address>0x1c738</load_address>
-         <run_address>0x1c738</run_address>
+         <load_address>0x1b738</load_address>
+         <run_address>0x1b738</run_address>
          <size>0x60</size>
          <input_file_ref idref="fl-16c"/>
       </object_component>
       <object_component id="oc-1f5">
          <name>.text</name>
-         <load_address>0x1c798</load_address>
-         <run_address>0x1c798</run_address>
+         <load_address>0x1b798</load_address>
+         <run_address>0x1b798</run_address>
          <size>0x5c</size>
          <input_file_ref idref="fl-7"/>
       </object_component>
       <object_component id="oc-435">
          <name>.text</name>
-         <load_address>0x1c7f4</load_address>
-         <run_address>0x1c7f4</run_address>
+         <load_address>0x1b7f4</load_address>
+         <run_address>0x1b7f4</run_address>
          <size>0x58</size>
          <input_file_ref idref="fl-175"/>
       </object_component>
       <object_component id="oc-53d">
          <name>.text:ChipInfo_GetChipFamily</name>
-         <load_address>0x1c84c</load_address>
-         <run_address>0x1c84c</run_address>
+         <load_address>0x1b84c</load_address>
+         <run_address>0x1b84c</run_address>
          <size>0x4c</size>
          <input_file_ref idref="fl-17b"/>
       </object_component>
       <object_component id="oc-1dd">
          <name>.text</name>
-         <load_address>0x1c898</load_address>
-         <run_address>0x1c898</run_address>
+         <load_address>0x1b898</load_address>
+         <run_address>0x1b898</run_address>
          <size>0x4c</size>
          <input_file_ref idref="fl-12"/>
       </object_component>
       <object_component id="oc-1d0">
          <name>.text</name>
-         <load_address>0x1c8e4</load_address>
-         <run_address>0x1c8e4</run_address>
+         <load_address>0x1b8e4</load_address>
+         <run_address>0x1b8e4</run_address>
          <size>0x4c</size>
          <input_file_ref idref="fl-146"/>
       </object_component>
       <object_component id="oc-384">
          <name>.text:NOROM_CRYPTOAesEcbStatus</name>
-         <load_address>0x1c930</load_address>
-         <run_address>0x1c930</run_address>
+         <load_address>0x1b930</load_address>
+         <run_address>0x1b930</run_address>
          <size>0x40</size>
          <input_file_ref idref="fl-154"/>
       </object_component>
       <object_component id="oc-447">
          <name>.text</name>
-         <load_address>0x1c970</load_address>
-         <run_address>0x1c970</run_address>
+         <load_address>0x1b970</load_address>
+         <run_address>0x1b970</run_address>
          <size>0x40</size>
          <input_file_ref idref="fl-178"/>
       </object_component>
       <object_component id="oc-36a">
          <name>.text:NOROM_TRNGConfigure</name>
-         <load_address>0x1c9b0</load_address>
-         <run_address>0x1c9b0</run_address>
+         <load_address>0x1b9b0</load_address>
+         <run_address>0x1b9b0</run_address>
          <size>0x24</size>
          <input_file_ref idref="fl-156"/>
       </object_component>
       <object_component id="oc-482">
          <name>.text</name>
-         <load_address>0x1c9d4</load_address>
-         <run_address>0x1c9d4</run_address>
+         <load_address>0x1b9d4</load_address>
+         <run_address>0x1b9d4</run_address>
          <size>0x22</size>
          <input_file_ref idref="fl-14a"/>
       </object_component>
       <object_component id="oc-330">
          <name>.text</name>
-         <load_address>0x1c9f8</load_address>
-         <run_address>0x1c9f8</run_address>
+         <load_address>0x1b9f8</load_address>
+         <run_address>0x1b9f8</run_address>
          <size>0x20</size>
          <input_file_ref idref="fl-2"/>
       </object_component>
       <object_component id="oc-2ea">
          <name>.text</name>
-         <load_address>0x1ca18</load_address>
-         <run_address>0x1ca18</run_address>
+         <load_address>0x1ba18</load_address>
+         <run_address>0x1ba18</run_address>
          <size>0x18</size>
          <input_file_ref idref="fl-148"/>
       </object_component>
       <object_component id="oc-4b9">
          <name>.text</name>
-         <load_address>0x1ca30</load_address>
-         <run_address>0x1ca30</run_address>
+         <load_address>0x1ba30</load_address>
+         <run_address>0x1ba30</run_address>
          <size>0x14</size>
          <input_file_ref idref="fl-14f"/>
       </object_component>
       <object_component id="oc-370">
          <name>.text:NOROM_TRNGNumberGet</name>
-         <load_address>0x1ca44</load_address>
-         <run_address>0x1ca44</run_address>
+         <load_address>0x1ba44</load_address>
+         <run_address>0x1ba44</run_address>
          <size>0x10</size>
          <input_file_ref idref="fl-156"/>
       </object_component>
       <object_component id="oc-15">
          <name>.text:decompress:none</name>
-         <load_address>0x1ca54</load_address>
-         <run_address>0x1ca54</run_address>
+         <load_address>0x1ba54</load_address>
+         <run_address>0x1ba54</run_address>
          <size>0xe</size>
          <input_file_ref idref="fl-143"/>
       </object_component>
       <object_component id="oc-21">
          <name>.text:decompress:ZI</name>
-         <load_address>0x1ca62</load_address>
-         <run_address>0x1ca62</run_address>
+         <load_address>0x1ba62</load_address>
+         <run_address>0x1ba62</run_address>
          <size>0xc</size>
          <input_file_ref idref="fl-145"/>
       </object_component>
       <object_component id="oc-49a">
          <name>.text:NOROM_CPUdelay</name>
-         <load_address>0x1ca6e</load_address>
-         <run_address>0x1ca6e</run_address>
+         <load_address>0x1ba6e</load_address>
+         <run_address>0x1ba6e</run_address>
          <size>0x6</size>
          <input_file_ref idref="fl-157"/>
       </object_component>
       <object_component id="oc-1b">
          <name>.text:decompress:rle24</name>
-         <load_address>0x1ca74</load_address>
-         <run_address>0x1ca74</run_address>
+         <load_address>0x1ba74</load_address>
+         <run_address>0x1ba74</run_address>
          <size>0x6</size>
          <input_file_ref idref="fl-144"/>
       </object_component>
       <object_component id="oc-4c6">
          <name>.const</name>
-         <load_address>0x1ca7c</load_address>
-         <run_address>0x1ca7c</run_address>
+         <load_address>0x1ba7c</load_address>
+         <run_address>0x1ba7c</run_address>
          <size>0x1c0</size>
          <input_file_ref idref="fl-e"/>
       </object_component>
       <object_component id="oc-41d">
          <name>.const</name>
-         <load_address>0x1cc3c</load_address>
-         <run_address>0x1cc3c</run_address>
+         <load_address>0x1bc3c</load_address>
+         <run_address>0x1bc3c</run_address>
          <size>0x194</size>
          <input_file_ref idref="fl-9"/>
       </object_component>
       <object_component id="oc-532">
          <name>.const:FH_stateMatrix</name>
-         <load_address>0x1cdd0</load_address>
-         <run_address>0x1cdd0</run_address>
+         <load_address>0x1bdd0</load_address>
+         <run_address>0x1bdd0</run_address>
          <size>0x190</size>
          <input_file_ref idref="fl-159"/>
       </object_component>
       <object_component id="oc-3c6">
          <name>.const</name>
-         <load_address>0x1cf60</load_address>
-         <run_address>0x1cf60</run_address>
+         <load_address>0x1bf60</load_address>
+         <run_address>0x1bf60</run_address>
          <size>0x170</size>
          <input_file_ref idref="fl-16a"/>
       </object_component>
       <object_component id="oc-418">
          <name>.const</name>
-         <load_address>0x1d0d0</load_address>
-         <run_address>0x1d0d0</run_address>
+         <load_address>0x1c0d0</load_address>
+         <run_address>0x1c0d0</run_address>
          <size>0x164</size>
          <input_file_ref idref="fl-a"/>
       </object_component>
       <object_component id="oc-3b6">
          <name>.const</name>
-         <load_address>0x1d234</load_address>
-         <run_address>0x1d234</run_address>
+         <load_address>0x1c234</load_address>
+         <run_address>0x1c234</run_address>
          <size>0x6c</size>
          <input_file_ref idref="fl-166"/>
       </object_component>
       <object_component id="oc-3f6">
          <name>.const:macIdleSt</name>
-         <load_address>0x1d2a0</load_address>
-         <run_address>0x1d2a0</run_address>
+         <load_address>0x1c2a0</load_address>
+         <run_address>0x1c2a0</run_address>
          <size>0x6a</size>
          <input_file_ref idref="fl-16a"/>
       </object_component>
       <object_component id="oc-3f9">
          <name>.const:macScanningSt</name>
-         <load_address>0x1d30a</load_address>
-         <run_address>0x1d30a</run_address>
+         <load_address>0x1c30a</load_address>
+         <run_address>0x1c30a</run_address>
          <size>0x6a</size>
          <input_file_ref idref="fl-16a"/>
       </object_component>
       <object_component id="oc-451">
          <name>.const:macTimerRolloverValue</name>
-         <load_address>0x1d374</load_address>
-         <run_address>0x1d374</run_address>
+         <load_address>0x1c374</load_address>
+         <run_address>0x1c374</run_address>
          <size>0x40</size>
          <input_file_ref idref="fl-16f"/>
       </object_component>
       <object_component id="oc-32c">
          <name>.const:.string</name>
-         <load_address>0x1d3b4</load_address>
-         <run_address>0x1d3b4</run_address>
+         <load_address>0x1c3b4</load_address>
+         <run_address>0x1c3b4</run_address>
          <size>0x13</size>
          <input_file_ref idref="fl-17"/>
       </object_component>
       <object_component id="oc-3cd">
          <name>.const</name>
-         <load_address>0x1d3c8</load_address>
-         <run_address>0x1d3c8</run_address>
+         <load_address>0x1c3c8</load_address>
+         <run_address>0x1c3c8</run_address>
          <size>0xc</size>
          <input_file_ref idref="fl-16e"/>
       </object_component>
       <object_component id="oc-48e">
          <name>.const:.string</name>
-         <load_address>0x1d3d4</load_address>
-         <run_address>0x1d3d4</run_address>
+         <load_address>0x1c3d4</load_address>
+         <run_address>0x1c3d4</run_address>
          <size>0x8</size>
          <input_file_ref idref="fl-170"/>
       </object_component>
       <object_component id="oc-52a">
          <name>.const:.string</name>
-         <load_address>0x1d3dc</load_address>
-         <run_address>0x1d3dc</run_address>
+         <load_address>0x1c3dc</load_address>
+         <run_address>0x1c3dc</run_address>
          <size>0x8</size>
          <input_file_ref idref="fl-171"/>
       </object_component>
       <object_component id="oc-4c2">
          <name>.const:.string</name>
-         <load_address>0x1d3e4</load_address>
-         <run_address>0x1d3e4</run_address>
+         <load_address>0x1c3e4</load_address>
+         <run_address>0x1c3e4</run_address>
          <size>0x8</size>
          <input_file_ref idref="fl-173"/>
       </object_component>
       <object_component id="oc-43d">
          <name>.const</name>
-         <load_address>0x1d3ec</load_address>
-         <run_address>0x1d3ec</run_address>
+         <load_address>0x1c3ec</load_address>
+         <run_address>0x1c3ec</run_address>
          <size>0x8</size>
          <input_file_ref idref="fl-15f"/>
       </object_component>
       <object_component id="oc-2f5">
          <name>.const</name>
-         <load_address>0x1d3f4</load_address>
-         <run_address>0x1d3f4</run_address>
+         <load_address>0x1c3f4</load_address>
+         <run_address>0x1c3f4</run_address>
          <size>0x5</size>
          <input_file_ref idref="fl-19"/>
       </object_component>
       <object_component id="oc-588">
          <name>.cinit..data.load</name>
-         <load_address>0x1d408</load_address>
-         <run_address>0x1d408</run_address>
+         <load_address>0x1c408</load_address>
+         <run_address>0x1c408</run_address>
          <size>0x216</size>
       </object_component>
       <object_component id="oc-586">
          <name>__TI_handler_table</name>
-         <load_address>0x1d620</load_address>
-         <run_address>0x1d620</run_address>
+         <load_address>0x1c620</load_address>
+         <run_address>0x1c620</run_address>
          <size>0xc</size>
       </object_component>
       <object_component id="oc-589">
          <name>.cinit..bss.load</name>
-         <load_address>0x1d630</load_address>
-         <run_address>0x1d630</run_address>
+         <load_address>0x1c630</load_address>
+         <run_address>0x1c630</run_address>
          <size>0x8</size>
       </object_component>
       <object_component id="oc-587">
          <name>__TI_cinit_table</name>
-         <load_address>0x1d638</load_address>
-         <run_address>0x1d638</run_address>
+         <load_address>0x1c638</load_address>
+         <run_address>0x1c638</run_address>
          <size>0x10</size>
       </object_component>
       <object_component id="oc-2d">
@@ -1062,7 +1062,7 @@
          <size>0x336</size>
          <input_file_ref idref="fl-3"/>
       </object_component>
-      <object_component id="oc-1fe">
+      <object_component id="oc-1fd">
          <name>.debug_info</name>
          <load_address>0x336</load_address>
          <run_address>0x336</run_address>
@@ -1139,7 +1139,7 @@
          <size>0x29e</size>
          <input_file_ref idref="fl-141"/>
       </object_component>
-      <object_component id="oc-4a">
+      <object_component id="oc-4c">
          <name>.debug_info</name>
          <load_address>0x22c0</load_address>
          <run_address>0x22c0</run_address>
@@ -1181,21 +1181,21 @@
          <size>0xf6</size>
          <input_file_ref idref="fl-14b"/>
       </object_component>
-      <object_component id="oc-44">
+      <object_component id="oc-45">
          <name>.debug_info</name>
          <load_address>0x27d1</load_address>
          <run_address>0x27d1</run_address>
          <size>0x124</size>
          <input_file_ref idref="fl-14c"/>
       </object_component>
-      <object_component id="oc-2e7">
+      <object_component id="oc-2e6">
          <name>.debug_info</name>
          <load_address>0x28f5</load_address>
          <run_address>0x28f5</run_address>
          <size>0x162</size>
          <input_file_ref idref="fl-150"/>
       </object_component>
-      <object_component id="oc-44d">
+      <object_component id="oc-44f">
          <name>.debug_info</name>
          <load_address>0x2a57</load_address>
          <run_address>0x2a57</run_address>
@@ -2839,7 +2839,7 @@
          <size>0x8f</size>
          <input_file_ref idref="fl-141"/>
       </object_component>
-      <object_component id="oc-4e">
+      <object_component id="oc-4a">
          <name>.debug_line</name>
          <load_address>0x686</load_address>
          <run_address>0x686</run_address>
@@ -2881,21 +2881,21 @@
          <size>0x88</size>
          <input_file_ref idref="fl-14b"/>
       </object_component>
-      <object_component id="oc-47">
+      <object_component id="oc-44">
          <name>.debug_line</name>
          <load_address>0x89a</load_address>
          <run_address>0x89a</run_address>
          <size>0x79</size>
          <input_file_ref idref="fl-14c"/>
       </object_component>
-      <object_component id="oc-2e6">
+      <object_component id="oc-2e9">
          <name>.debug_line</name>
          <load_address>0x913</load_address>
          <run_address>0x913</run_address>
          <size>0x118</size>
          <input_file_ref idref="fl-150"/>
       </object_component>
-      <object_component id="oc-450">
+      <object_component id="oc-44e">
          <name>.debug_line</name>
          <load_address>0xa2b</load_address>
          <run_address>0xa2b</run_address>
@@ -4449,14 +4449,14 @@
          <size>0x61</size>
          <input_file_ref idref="fl-17c"/>
       </object_component>
-      <object_component id="oc-1fd">
+      <object_component id="oc-200">
          <name>.debug_frame</name>
          <load_address>0x0</load_address>
          <run_address>0x0</run_address>
          <size>0xc0</size>
          <input_file_ref idref="fl-3"/>
       </object_component>
-      <object_component id="oc-4d">
+      <object_component id="oc-4b">
          <name>.debug_frame</name>
          <load_address>0xc0</load_address>
          <run_address>0xc0</run_address>
@@ -7416,21 +7416,21 @@
          <size>0xeb</size>
          <input_file_ref idref="fl-17c"/>
       </object_component>
-      <object_component id="oc-1ff">
+      <object_component id="oc-1fe">
          <name>.debug_aranges</name>
          <load_address>0x0</load_address>
          <run_address>0x0</run_address>
          <size>0x48</size>
          <input_file_ref idref="fl-3"/>
       </object_component>
-      <object_component id="oc-4b">
+      <object_component id="oc-4e">
          <name>.debug_aranges</name>
          <load_address>0x48</load_address>
          <run_address>0x48</run_address>
          <size>0x20</size>
          <input_file_ref idref="fl-141"/>
       </object_component>
-      <object_component id="oc-2ec">
+      <object_component id="oc-2ed">
          <name>.debug_aranges</name>
          <load_address>0x68</load_address>
          <run_address>0x68</run_address>
@@ -7444,21 +7444,21 @@
          <size>0x20</size>
          <input_file_ref idref="fl-14b"/>
       </object_component>
-      <object_component id="oc-46">
+      <object_component id="oc-47">
          <name>.debug_aranges</name>
          <load_address>0xa8</load_address>
          <run_address>0xa8</run_address>
          <size>0x28</size>
          <input_file_ref idref="fl-14c"/>
       </object_component>
-      <object_component id="oc-2e9">
+      <object_component id="oc-2e7">
          <name>.debug_aranges</name>
          <load_address>0xd0</load_address>
          <run_address>0xd0</run_address>
          <size>0x28</size>
          <input_file_ref idref="fl-150"/>
       </object_component>
-      <object_component id="oc-44e">
+      <object_component id="oc-44d">
          <name>.debug_aranges</name>
          <load_address>0xf8</load_address>
          <run_address>0xf8</run_address>
@@ -7913,21 +7913,21 @@
          <size>0x20</size>
          <input_file_ref idref="fl-17c"/>
       </object_component>
-      <object_component id="oc-200">
+      <object_component id="oc-1ff">
          <name>.debug_pubnames</name>
          <load_address>0x0</load_address>
          <run_address>0x0</run_address>
          <size>0x9c</size>
          <input_file_ref idref="fl-3"/>
       </object_component>
-      <object_component id="oc-4c">
+      <object_component id="oc-4d">
          <name>.debug_pubnames</name>
          <load_address>0x9c</load_address>
          <run_address>0x9c</run_address>
          <size>0x25</size>
          <input_file_ref idref="fl-141"/>
       </object_component>
-      <object_component id="oc-2ed">
+      <object_component id="oc-2ec">
          <name>.debug_pubnames</name>
          <load_address>0xc1</load_address>
          <run_address>0xc1</run_address>
@@ -7941,7 +7941,7 @@
          <size>0x1d</size>
          <input_file_ref idref="fl-14b"/>
       </object_component>
-      <object_component id="oc-45">
+      <object_component id="oc-46">
          <name>.debug_pubnames</name>
          <load_address>0x101</load_address>
          <run_address>0x101</run_address>
@@ -7955,7 +7955,7 @@
          <size>0x39</size>
          <input_file_ref idref="fl-150"/>
       </object_component>
-      <object_component id="oc-44f">
+      <object_component id="oc-450">
          <name>.debug_pubnames</name>
          <load_address>0x171</load_address>
          <run_address>0x171</run_address>
@@ -7969,7 +7969,7 @@
          <size>0x27</size>
          <input_file_ref idref="fl-178"/>
       </object_component>
-      <object_component id="oc-3a">
+      <object_component id="oc-3b">
          <name>.debug_pubnames</name>
          <load_address>0x1be</load_address>
          <run_address>0x1be</run_address>
@@ -8865,7 +8865,7 @@
          <size>0x50</size>
          <input_file_ref idref="fl-141"/>
       </object_component>
-      <object_component id="oc-3b">
+      <object_component id="oc-3a">
          <name>.debug_pubtypes</name>
          <load_address>0xe6f</load_address>
          <run_address>0xe6f</run_address>
@@ -9602,16 +9602,16 @@
       </object_component>
       <object_component id="oc-58c">
          <name>.args</name>
-         <load_address>0x1d3fc</load_address>
-         <run_address>0x1d3fc</run_address>
+         <load_address>0x1c3fc</load_address>
+         <run_address>0x1c3fc</run_address>
          <size>0x0</size>
       </object_component>
    </object_component_list>
    <logical_group_list>
       <logical_group id="lg-2" display="no" color="cyan">
          <name>EntrySection</name>
-         <load_address>0xf000</load_address>
-         <run_address>0xf000</run_address>
+         <load_address>0xe000</load_address>
+         <run_address>0xe000</run_address>
          <size>0x24</size>
          <contents>
             <object_component_ref idref="oc-27"/>
@@ -9619,8 +9619,8 @@
       </logical_group>
       <logical_group id="lg-3" display="no" color="cyan">
          <name>.text</name>
-         <load_address>0xf024</load_address>
-         <run_address>0xf024</run_address>
+         <load_address>0xe024</load_address>
+         <run_address>0xe024</run_address>
          <size>0xda56</size>
          <contents>
             <object_component_ref idref="oc-201"/>
@@ -9698,8 +9698,8 @@
       </logical_group>
       <logical_group id="lg-4" display="no" color="cyan">
          <name>.const</name>
-         <load_address>0x1ca7c</load_address>
-         <run_address>0x1ca7c</run_address>
+         <load_address>0x1ba7c</load_address>
+         <run_address>0x1ba7c</run_address>
          <size>0x97d</size>
          <contents>
             <object_component_ref idref="oc-4c6"/>
@@ -9736,8 +9736,8 @@
       </logical_group>
       <logical_group id="lg-7" display="no" color="cyan">
          <name>.cinit</name>
-         <load_address>0x1d408</load_address>
-         <run_address>0x1d408</run_address>
+         <load_address>0x1c408</load_address>
+         <run_address>0x1c408</run_address>
          <size>0x240</size>
          <contents>
             <object_component_ref idref="oc-588"/>
@@ -9917,7 +9917,7 @@
          <size>0x663d4</size>
          <contents>
             <object_component_ref idref="oc-38b"/>
-            <object_component_ref idref="oc-1fe"/>
+            <object_component_ref idref="oc-1fd"/>
             <object_component_ref idref="oc-3f1"/>
             <object_component_ref idref="oc-4a8"/>
             <object_component_ref idref="oc-4a3"/>
@@ -9928,15 +9928,15 @@
             <object_component_ref idref="oc-22d"/>
             <object_component_ref idref="oc-25c"/>
             <object_component_ref idref="oc-1d7"/>
-            <object_component_ref idref="oc-4a"/>
+            <object_component_ref idref="oc-4c"/>
             <object_component_ref idref="oc-1d8"/>
             <object_component_ref idref="oc-2cd"/>
             <object_component_ref idref="oc-1bf"/>
             <object_component_ref idref="oc-2eb"/>
             <object_component_ref idref="oc-2f"/>
-            <object_component_ref idref="oc-44"/>
-            <object_component_ref idref="oc-2e7"/>
-            <object_component_ref idref="oc-44d"/>
+            <object_component_ref idref="oc-45"/>
+            <object_component_ref idref="oc-2e6"/>
+            <object_component_ref idref="oc-44f"/>
             <object_component_ref idref="oc-448"/>
             <object_component_ref idref="oc-39"/>
             <object_component_ref idref="oc-432"/>
@@ -10179,15 +10179,15 @@
             <object_component_ref idref="oc-230"/>
             <object_component_ref idref="oc-25f"/>
             <object_component_ref idref="oc-2cc"/>
-            <object_component_ref idref="oc-4e"/>
+            <object_component_ref idref="oc-4a"/>
             <object_component_ref idref="oc-1db"/>
             <object_component_ref idref="oc-2d0"/>
             <object_component_ref idref="oc-1c2"/>
             <object_component_ref idref="oc-2ee"/>
             <object_component_ref idref="oc-32"/>
-            <object_component_ref idref="oc-47"/>
-            <object_component_ref idref="oc-2e6"/>
-            <object_component_ref idref="oc-450"/>
+            <object_component_ref idref="oc-44"/>
+            <object_component_ref idref="oc-2e9"/>
+            <object_component_ref idref="oc-44e"/>
             <object_component_ref idref="oc-44b"/>
             <object_component_ref idref="oc-60"/>
             <object_component_ref idref="oc-506"/>
@@ -10417,8 +10417,8 @@
          <run_address>0x0</run_address>
          <size>0x4a19</size>
          <contents>
-            <object_component_ref idref="oc-1fd"/>
-            <object_component_ref idref="oc-4d"/>
+            <object_component_ref idref="oc-200"/>
+            <object_component_ref idref="oc-4b"/>
             <object_component_ref idref="oc-312"/>
             <object_component_ref idref="oc-3d2"/>
             <object_component_ref idref="oc-38d"/>
@@ -10865,13 +10865,13 @@
          <run_address>0x0</run_address>
          <size>0x18c0</size>
          <contents>
-            <object_component_ref idref="oc-1ff"/>
-            <object_component_ref idref="oc-4b"/>
-            <object_component_ref idref="oc-2ec"/>
+            <object_component_ref idref="oc-1fe"/>
+            <object_component_ref idref="oc-4e"/>
+            <object_component_ref idref="oc-2ed"/>
             <object_component_ref idref="oc-30"/>
-            <object_component_ref idref="oc-46"/>
-            <object_component_ref idref="oc-2e9"/>
-            <object_component_ref idref="oc-44e"/>
+            <object_component_ref idref="oc-47"/>
+            <object_component_ref idref="oc-2e7"/>
+            <object_component_ref idref="oc-44d"/>
             <object_component_ref idref="oc-44a"/>
             <object_component_ref idref="oc-314"/>
             <object_component_ref idref="oc-3d4"/>
@@ -10944,15 +10944,15 @@
          <run_address>0x0</run_address>
          <size>0x4a66</size>
          <contents>
-            <object_component_ref idref="oc-200"/>
-            <object_component_ref idref="oc-4c"/>
-            <object_component_ref idref="oc-2ed"/>
+            <object_component_ref idref="oc-1ff"/>
+            <object_component_ref idref="oc-4d"/>
+            <object_component_ref idref="oc-2ec"/>
             <object_component_ref idref="oc-31"/>
-            <object_component_ref idref="oc-45"/>
+            <object_component_ref idref="oc-46"/>
             <object_component_ref idref="oc-2e8"/>
-            <object_component_ref idref="oc-44f"/>
+            <object_component_ref idref="oc-450"/>
             <object_component_ref idref="oc-449"/>
-            <object_component_ref idref="oc-3a"/>
+            <object_component_ref idref="oc-3b"/>
             <object_component_ref idref="oc-433"/>
             <object_component_ref idref="oc-417"/>
             <object_component_ref idref="oc-45c"/>
@@ -11088,7 +11088,7 @@
             <object_component_ref idref="oc-1d9"/>
             <object_component_ref idref="oc-2ce"/>
             <object_component_ref idref="oc-1c0"/>
-            <object_component_ref idref="oc-3b"/>
+            <object_component_ref idref="oc-3a"/>
             <object_component_ref idref="oc-d0"/>
             <object_component_ref idref="oc-8f"/>
             <object_component_ref idref="oc-545"/>
@@ -11197,8 +11197,8 @@
       </logical_group>
       <logical_group id="lg-58b" display="no" color="cyan">
          <name>.args</name>
-         <load_address>0x1d3fc</load_address>
-         <run_address>0x1d3fc</run_address>
+         <load_address>0x1c3fc</load_address>
+         <run_address>0x1c3fc</run_address>
          <size>0x8</size>
          <contents>
             <object_component_ref idref="oc-58c"/>
@@ -11206,8 +11206,8 @@
       </logical_group>
       <load_segment id="lg-597" display="no" color="cyan">
          <name>SEGMENT_0</name>
-         <load_address>0xf000</load_address>
-         <run_address>0xf000</run_address>
+         <load_address>0xe000</load_address>
+         <run_address>0xe000</run_address>
          <size>0xe3f9</size>
          <flags>0x5</flags>
          <contents>
@@ -11218,8 +11218,8 @@
       </load_segment>
       <load_segment id="lg-598" display="no" color="cyan">
          <name>SEGMENT_1</name>
-         <load_address>0x1d3fc</load_address>
-         <run_address>0x1d3fc</run_address>
+         <load_address>0x1c3fc</load_address>
+         <run_address>0x1c3fc</run_address>
          <size>0x8</size>
          <flags>0x6</flags>
          <contents>
@@ -11228,8 +11228,8 @@
       </load_segment>
       <load_segment id="lg-599" display="no" color="cyan">
          <name>SEGMENT_2</name>
-         <load_address>0x1d408</load_address>
-         <run_address>0x1d408</run_address>
+         <load_address>0x1c408</load_address>
+         <run_address>0x1c408</run_address>
          <size>0x240</size>
          <flags>0x4</flags>
          <contents>
@@ -11260,51 +11260,51 @@
       <memory_area display="yes" color="green">
          <name>FLASH</name>
          <page_id>0x0</page_id>
-         <origin>0xf000</origin>
+         <origin>0xe000</origin>
          <length>0xf000</length>
          <used_space>0xe63f</used_space>
          <unused_space>0x9c1</unused_space>
          <attributes>RX</attributes>
          <usage_details>
             <allocated_space>
-               <start_address>0xf000</start_address>
+               <start_address>0xe000</start_address>
                <size>0x24</size>
                <logical_group_ref idref="lg-2"/>
             </allocated_space>
             <allocated_space>
-               <start_address>0xf024</start_address>
+               <start_address>0xe024</start_address>
                <size>0xda56</size>
                <logical_group_ref idref="lg-3"/>
             </allocated_space>
             <available_space>
-               <start_address>0x1ca7a</start_address>
+               <start_address>0x1ba7a</start_address>
                <size>0x2</size>
             </available_space>
             <allocated_space>
-               <start_address>0x1ca7c</start_address>
+               <start_address>0x1ba7c</start_address>
                <size>0x97d</size>
                <logical_group_ref idref="lg-4"/>
             </allocated_space>
             <available_space>
-               <start_address>0x1d3f9</start_address>
+               <start_address>0x1c3f9</start_address>
                <size>0x3</size>
             </available_space>
             <allocated_space>
-               <start_address>0x1d3fc</start_address>
+               <start_address>0x1c3fc</start_address>
                <size>0x8</size>
                <logical_group_ref idref="lg-58b"/>
             </allocated_space>
             <available_space>
-               <start_address>0x1d404</start_address>
+               <start_address>0x1c404</start_address>
                <size>0x4</size>
             </available_space>
             <allocated_space>
-               <start_address>0x1d408</start_address>
+               <start_address>0x1c408</start_address>
                <size>0x240</size>
                <logical_group_ref idref="lg-7"/>
             </allocated_space>
             <available_space>
-               <start_address>0x1d648</start_address>
+               <start_address>0x1c648</start_address>
                <size>0x9b8</size>
             </available_space>
          </usage_details>
@@ -11349,7 +11349,7 @@
          <name>__TI_cinit_table</name>
          <cprec>
             <name>.data</name>
-            <load_address>0x1d408</load_address>
+            <load_address>0x1c408</load_address>
             <load_size>0x216</load_size>
             <run_address>0x200046b0</run_address>
             <run_size>0x5dc</run_size>
@@ -11357,7 +11357,7 @@
          </cprec>
          <cprec>
             <name>.bss</name>
-            <load_address>0x1d630</load_address>
+            <load_address>0x1c630</load_address>
             <load_size>0x8</load_size>
             <run_address>0x20003e00</run_address>
             <run_size>0x8af</run_size>
@@ -11387,19 +11387,19 @@
       </symbol>
       <symbol id="sm-2">
          <name>__TI_CINIT_Base</name>
-         <value>0x1d638</value>
+         <value>0x1c638</value>
       </symbol>
       <symbol id="sm-3">
          <name>__TI_CINIT_Limit</name>
-         <value>0x1d648</value>
+         <value>0x1c648</value>
       </symbol>
       <symbol id="sm-4">
          <name>__TI_Handler_Table_Base</name>
-         <value>0x1d620</value>
+         <value>0x1c620</value>
       </symbol>
       <symbol id="sm-5">
          <name>__TI_Handler_Table_Limit</name>
-         <value>0x1d62c</value>
+         <value>0x1c62c</value>
       </symbol>
       <symbol id="sm-6">
          <name>binit</name>
@@ -11419,41 +11419,41 @@
       </symbol>
       <symbol id="sm-a">
          <name>__c_args__</name>
-         <value>0x1d3fc</value>
+         <value>0x1c3fc</value>
       </symbol>
       <symbol id="sm-6d">
          <name>sspAesDecryptHW_keylocation</name>
-         <value>0x1c217</value>
+         <value>0x1b217</value>
          <object_component_ref idref="oc-1fb"/>
       </symbol>
       <symbol id="sm-6e">
          <name>sspAesEncryptHW</name>
-         <value>0x1c1f3</value>
+         <value>0x1b1f3</value>
          <object_component_ref idref="oc-1fb"/>
       </symbol>
       <symbol id="sm-6f">
          <name>sspAesEncryptHW_keylocation</name>
-         <value>0x1c1d3</value>
+         <value>0x1b1d3</value>
          <object_component_ref idref="oc-1fb"/>
       </symbol>
       <symbol id="sm-70">
          <name>HalAesInit</name>
-         <value>0x1c25b</value>
+         <value>0x1b25b</value>
          <object_component_ref idref="oc-1fb"/>
       </symbol>
       <symbol id="sm-71">
          <name>ssp_HW_KeyInit</name>
-         <value>0x1c1cd</value>
+         <value>0x1b1cd</value>
          <object_component_ref idref="oc-1fb"/>
       </symbol>
       <symbol id="sm-72">
          <name>sspAesDecryptHW</name>
-         <value>0x1c237</value>
+         <value>0x1b237</value>
          <object_component_ref idref="oc-1fb"/>
       </symbol>
       <symbol id="sm-9e">
          <name>__TI_auto_init</name>
-         <value>0x1c595</value>
+         <value>0x1b595</value>
          <object_component_ref idref="oc-49"/>
       </symbol>
       <symbol id="sm-a1">
@@ -11463,87 +11463,87 @@
       </symbol>
       <symbol id="sm-af">
          <name>__aeabi_lmul</name>
-         <value>0x1ca19</value>
+         <value>0x1ba19</value>
          <object_component_ref idref="oc-2ea"/>
       </symbol>
       <symbol id="sm-ca">
          <name>memcpy</name>
-         <value>0x1c31d</value>
+         <value>0x1b31d</value>
          <object_component_ref idref="oc-2e"/>
       </symbol>
       <symbol id="sm-cb">
          <name>__aeabi_memcpy</name>
-         <value>0x1c31d</value>
+         <value>0x1b31d</value>
          <object_component_ref idref="oc-2e"/>
       </symbol>
       <symbol id="sm-cc">
          <name>__aeabi_memcpy8</name>
-         <value>0x1c31d</value>
+         <value>0x1b31d</value>
          <object_component_ref idref="oc-2e"/>
       </symbol>
       <symbol id="sm-cd">
          <name>__aeabi_memcpy4</name>
-         <value>0x1c31d</value>
+         <value>0x1b31d</value>
          <object_component_ref idref="oc-2e"/>
       </symbol>
       <symbol id="sm-dc">
          <name>__aeabi_memset</name>
-         <value>0x1c43f</value>
+         <value>0x1b43f</value>
          <object_component_ref idref="oc-43"/>
       </symbol>
       <symbol id="sm-dd">
          <name>memset</name>
-         <value>0x1c445</value>
+         <value>0x1b445</value>
          <object_component_ref idref="oc-43"/>
       </symbol>
       <symbol id="sm-de">
          <name>__aeabi_memset8</name>
-         <value>0x1c43f</value>
+         <value>0x1b43f</value>
          <object_component_ref idref="oc-43"/>
       </symbol>
       <symbol id="sm-df">
          <name>__aeabi_memset4</name>
-         <value>0x1c43f</value>
+         <value>0x1b43f</value>
          <object_component_ref idref="oc-43"/>
       </symbol>
       <symbol id="sm-e0">
          <name>__aeabi_memclr8</name>
-         <value>0x1c43d</value>
+         <value>0x1b43d</value>
          <object_component_ref idref="oc-43"/>
       </symbol>
       <symbol id="sm-e1">
          <name>__aeabi_memclr4</name>
-         <value>0x1c43d</value>
+         <value>0x1b43d</value>
          <object_component_ref idref="oc-43"/>
       </symbol>
       <symbol id="sm-e2">
          <name>__aeabi_memclr</name>
-         <value>0x1c43d</value>
+         <value>0x1b43d</value>
          <object_component_ref idref="oc-43"/>
       </symbol>
       <symbol id="sm-10c">
          <name>__aeabi_uldivmod</name>
-         <value>0x1b5b5</value>
+         <value>0x1a5b5</value>
          <object_component_ref idref="oc-2e5"/>
       </symbol>
       <symbol id="sm-112">
          <name>NOROM_CPUdelay</name>
-         <value>0x1ca6f</value>
+         <value>0x1ba6f</value>
          <object_component_ref idref="oc-49a"/>
       </symbol>
       <symbol id="sm-140">
          <name>__aeabi_ldivmod</name>
-         <value>0x1b195</value>
+         <value>0x1a195</value>
          <object_component_ref idref="oc-44c"/>
       </symbol>
       <symbol id="sm-152">
          <name>__aeabi_uidivmod</name>
-         <value>0x1c971</value>
+         <value>0x1b971</value>
          <object_component_ref idref="oc-447"/>
       </symbol>
       <symbol id="sm-153">
          <name>__aeabi_uidiv</name>
-         <value>0x1c971</value>
+         <value>0x1b971</value>
          <object_component_ref idref="oc-447"/>
       </symbol>
       <symbol id="sm-1452">
@@ -11576,82 +11576,82 @@
       </symbol>
       <symbol id="sm-1459">
          <name>osal_msg_dequeue</name>
-         <value>0x15649</value>
+         <value>0x14649</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-145a">
          <name>FHPIB_get</name>
-         <value>0x1bdfd</value>
+         <value>0x1adfd</value>
          <object_component_ref idref="oc-3a4"/>
       </symbol>
       <symbol id="sm-145b">
          <name>macRadioUpdateTxPower</name>
-         <value>0x17dab</value>
+         <value>0x16dab</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-145c">
          <name>macBlacklistChecking</name>
-         <value>0x13f0d</value>
+         <value>0x12f0d</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-145d">
          <name>macMcuOverflowCapture</name>
-         <value>0x1b45b</value>
+         <value>0x1a45b</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-145e">
          <name>MAC_RandomByte</name>
-         <value>0x1b439</value>
+         <value>0x1a439</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-145f">
          <name>macApiAssociateReq</name>
-         <value>0x17171</value>
+         <value>0x16171</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1460">
          <name>MAC_MlmeGetSecurityReq</name>
-         <value>0x19ba1</value>
+         <value>0x18ba1</value>
          <object_component_ref idref="oc-2f9"/>
       </symbol>
       <symbol id="sm-1461">
          <name>FHSM_event</name>
-         <value>0x1c551</value>
+         <value>0x1b551</value>
          <object_component_ref idref="oc-479"/>
       </symbol>
       <symbol id="sm-1462">
          <name>osalTimerUpdate</name>
-         <value>0x1be7d</value>
+         <value>0x1ae7d</value>
          <object_component_ref idref="oc-2d6"/>
       </symbol>
       <symbol id="sm-1463">
          <name>macTimerRolloverValue</name>
-         <value>0x1d374</value>
+         <value>0x1c374</value>
          <object_component_ref idref="oc-451"/>
       </symbol>
       <symbol id="sm-1464">
          <name>MAC_EnableFH</name>
-         <value>0xf515</value>
+         <value>0xe515</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1465">
          <name>FHUTIL_getChannelSpacing</name>
-         <value>0x193d1</value>
+         <value>0x183d1</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-1466">
          <name>macTxFrame</name>
-         <value>0x14849</value>
+         <value>0x13849</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-1467">
          <name>MAC_InitCoord</name>
-         <value>0x11a1b</value>
+         <value>0x10a1b</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1468">
          <name>MAC_McpsDataAlloc</name>
-         <value>0x120ff</value>
+         <value>0x110ff</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-1469">
@@ -11661,12 +11661,12 @@
       </symbol>
       <symbol id="sm-146a">
          <name>macOutgoingFrameSecurity</name>
-         <value>0x143c1</value>
+         <value>0x133c1</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-146b">
          <name>macAuthTagLen</name>
-         <value>0x1d3cc</value>
+         <value>0x1c3cc</value>
          <object_component_ref idref="oc-3cd"/>
       </symbol>
       <symbol id="sm-146c">
@@ -11676,62 +11676,62 @@
       </symbol>
       <symbol id="sm-146d">
          <name>macSendDataMsg</name>
-         <value>0x1a07f</value>
+         <value>0x1907f</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-146e">
          <name>macIndirectRequeueFrame</name>
-         <value>0x12035</value>
+         <value>0x11035</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-146f">
          <name>macDataTxTimeAvailable</name>
-         <value>0x12661</value>
+         <value>0x11661</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-1470">
          <name>osal_build_uint32</name>
-         <value>0x15741</value>
+         <value>0x14741</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-1471">
          <name>macRxAssocRsp</name>
-         <value>0x16dd9</value>
+         <value>0x15dd9</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1472">
          <name>FHIE_extractHie</name>
-         <value>0x10183</value>
+         <value>0xf183</value>
          <object_component_ref idref="oc-39e"/>
       </symbol>
       <symbol id="sm-1473">
          <name>macTxRssiChannelBusyCallback</name>
-         <value>0x14cf1</value>
+         <value>0x13cf1</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-1474">
          <name>MAC_GetPHYParamReq</name>
-         <value>0x1ad7d</value>
+         <value>0x19d7d</value>
          <object_component_ref idref="oc-305"/>
       </symbol>
       <symbol id="sm-1475">
          <name>macIncomingNonSlottedTx</name>
-         <value>0x16959</value>
+         <value>0x15959</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-1476">
          <name>macBeaconCheckSched</name>
-         <value>0x1af69</value>
+         <value>0x19f69</value>
          <object_component_ref idref="oc-3d1"/>
       </symbol>
       <symbol id="sm-1477">
          <name>MAC_InitBeaconDevice</name>
-         <value>0x1660f</value>
+         <value>0x1560f</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-1478">
          <name>osal_msg_extract</name>
-         <value>0x159a9</value>
+         <value>0x149a9</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-1479">
@@ -11741,12 +11741,12 @@
       </symbol>
       <symbol id="sm-147a">
          <name>macMcuRandomWord</name>
-         <value>0x1b531</value>
+         <value>0x1a531</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-147b">
          <name>macRxAssociateReq</name>
-         <value>0x115f1</value>
+         <value>0x105f1</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-147c">
@@ -11766,17 +11766,17 @@
       </symbol>
       <symbol id="sm-147f">
          <name>macRadioTxGoSlotted</name>
-         <value>0x1300d</value>
+         <value>0x1200d</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1480">
          <name>FHMGR_updateRadioUCChannel</name>
-         <value>0x1a3ff</value>
+         <value>0x193ff</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-1481">
          <name>macBeaconBattLifeCallback</name>
-         <value>0x172a1</value>
+         <value>0x162a1</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-1482">
@@ -11786,37 +11786,37 @@
       </symbol>
       <symbol id="sm-1483">
          <name>macRadioEnergyDetectStop</name>
-         <value>0x17c9d</value>
+         <value>0x16c9d</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1484">
          <name>macRadioTxPrepGreenPower</name>
-         <value>0x12cc3</value>
+         <value>0x11cc3</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1485">
          <name>macSymbolTimerCompareIsr</name>
-         <value>0x1958f</value>
+         <value>0x1858f</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-1486">
          <name>macSymbolTimerTriggerCallback</name>
-         <value>0x19dc9</value>
+         <value>0x18dc9</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-1487">
          <name>macBeaconCheckStartTime</name>
-         <value>0x17485</value>
+         <value>0x16485</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-1488">
          <name>macTimerCheckUnAlignedQ</name>
-         <value>0x19eb9</value>
+         <value>0x18eb9</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-1489">
          <name>macWrapperDeleteDevice</name>
-         <value>0x1528f</value>
+         <value>0x1428f</value>
          <object_component_ref idref="oc-30b"/>
       </symbol>
       <symbol id="sm-148a">
@@ -11831,32 +11831,32 @@
       </symbol>
       <symbol id="sm-148c">
          <name>__TI_decompress_rle24</name>
-         <value>0x1ca75</value>
+         <value>0x1ba75</value>
          <object_component_ref idref="oc-1b"/>
       </symbol>
       <symbol id="sm-148d">
          <name>macCoordDestAddrCmp</name>
-         <value>0xf025</value>
+         <value>0xe025</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-148e">
          <name>FHDH1CF_getBcCh</name>
-         <value>0x1ba9b</value>
+         <value>0x1aa9b</value>
          <object_component_ref idref="oc-51e"/>
       </symbol>
       <symbol id="sm-148f">
          <name>macRxDataReq</name>
-         <value>0x11b2d</value>
+         <value>0x10b2d</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1490">
          <name>macAssocFailed</name>
-         <value>0x16d2b</value>
+         <value>0x15d2b</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1491">
          <name>MAC_MlmePollReq</name>
-         <value>0x17043</value>
+         <value>0x16043</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1492">
@@ -11866,12 +11866,12 @@
       </symbol>
       <symbol id="sm-1493">
          <name>macLowLevelInit</name>
-         <value>0x1c3f7</value>
+         <value>0x1b3f7</value>
          <object_component_ref idref="oc-21f"/>
       </symbol>
       <symbol id="sm-1494">
          <name>FHUTIL_adjBackOffDur</name>
-         <value>0x19267</value>
+         <value>0x18267</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-1495">
@@ -11881,17 +11881,17 @@
       </symbol>
       <symbol id="sm-1496">
          <name>FHUTIL_calcUfsi</name>
-         <value>0x1923b</value>
+         <value>0x1823b</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-1497">
          <name>FHMGR_pendBcChUpdate</name>
-         <value>0x1a3f3</value>
+         <value>0x193f3</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-1498">
          <name>macBeaconSyncLoss</name>
-         <value>0x16993</value>
+         <value>0x15993</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-1499">
@@ -11906,67 +11906,67 @@
       </symbol>
       <symbol id="sm-149b">
          <name>macRadioTxGoSlottedCsma</name>
-         <value>0x12fdf</value>
+         <value>0x11fdf</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-149c">
          <name>MAC_StartFH</name>
-         <value>0xf4f7</value>
+         <value>0xe4f7</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-149d">
          <name>macPanConflictComplete</name>
-         <value>0x16c2d</value>
+         <value>0x15c2d</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-149e">
          <name>macWSAsyncCnf</name>
-         <value>0xfa2f</value>
+         <value>0xea2f</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-149f">
          <name>macAssocFrameResponseTimeout</name>
-         <value>0x16d5d</value>
+         <value>0x15d5d</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-14a0">
          <name>macDataSend</name>
-         <value>0x12785</value>
+         <value>0x11785</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-14a1">
          <name>macTimerRealign</name>
-         <value>0x19e6d</value>
+         <value>0x18e6d</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-14a2">
          <name>macTimerAligned</name>
-         <value>0x19d13</value>
+         <value>0x18d13</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-14a3">
          <name>macBeaconInit</name>
-         <value>0x1b003</value>
+         <value>0x1a003</value>
          <object_component_ref idref="oc-3d1"/>
       </symbol>
       <symbol id="sm-14a4">
          <name>MAC_YieldReq</name>
-         <value>0xf397</value>
+         <value>0xe397</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-14a5">
          <name>macApiStartReq</name>
-         <value>0x11971</value>
+         <value>0x10971</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-14a6">
          <name>macTimerAddTimer</name>
-         <value>0x19eeb</value>
+         <value>0x18eeb</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-14a7">
          <name>macOutgoingFrameKeyDescRetrieval</name>
-         <value>0x142f3</value>
+         <value>0x132f3</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-14a8">
@@ -11981,12 +11981,12 @@
       </symbol>
       <symbol id="sm-14aa">
          <name>MAC_CbackEvent</name>
-         <value>0x183cf</value>
+         <value>0x173cf</value>
          <object_component_ref idref="oc-1e9"/>
       </symbol>
       <symbol id="sm-14ab">
          <name>macRxSoftEnable</name>
-         <value>0x1bbe7</value>
+         <value>0x1abe7</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-14ac">
@@ -11996,77 +11996,77 @@
       </symbol>
       <symbol id="sm-14ad">
          <name>osal_set_event</name>
-         <value>0x157e9</value>
+         <value>0x147e9</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-14ae">
          <name>macTimerRecalcUnaligned</name>
-         <value>0x19d49</value>
+         <value>0x18d49</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-14af">
          <name>macBuildBeaconNotifyInd</name>
-         <value>0xfd21</value>
+         <value>0xed21</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-14b0">
          <name>macMcuTimerCapture</name>
-         <value>0x1b46b</value>
+         <value>0x1a46b</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-14b1">
          <name>FHUTIL_getUcChannel</name>
-         <value>0x19323</value>
+         <value>0x18323</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-14b2">
          <name>macStopCmd</name>
-         <value>0x16379</value>
+         <value>0x15379</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-14b3">
          <name>macTxAbortIsr</name>
-         <value>0x1469d</value>
+         <value>0x1369d</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-14b4">
          <name>MAC_InitFH</name>
-         <value>0xf539</value>
+         <value>0xe539</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-14b5">
          <name>MAC_McpsDataReq</name>
-         <value>0x121db</value>
+         <value>0x111db</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-14b6">
          <name>macDataRxMemFree</name>
-         <value>0x120f9</value>
+         <value>0x110f9</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-14b7">
          <name>macEBeaconPrepareCallback</name>
-         <value>0x1732f</value>
+         <value>0x1632f</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-14b8">
          <name>macScanRxBeacon</name>
-         <value>0x18955</value>
+         <value>0x17955</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-14b9">
          <name>macDataReset</name>
-         <value>0x12277</value>
+         <value>0x11277</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-14ba">
          <name>macEBeaconTxCallback</name>
-         <value>0x17407</value>
+         <value>0x16407</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-14bb">
          <name>FHDH1CF_mapChIdxChannel</name>
-         <value>0x1ba17</value>
+         <value>0x1aa17</value>
          <object_component_ref idref="oc-51e"/>
       </symbol>
       <symbol id="sm-14bc">
@@ -12076,12 +12076,12 @@
       </symbol>
       <symbol id="sm-14bd">
          <name>strlen</name>
-         <value>0x1ca31</value>
+         <value>0x1ba31</value>
          <object_component_ref idref="oc-4b9"/>
       </symbol>
       <symbol id="sm-14be">
          <name>macStartComplete</name>
-         <value>0x11595</value>
+         <value>0x10595</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-14bf">
@@ -12091,37 +12091,37 @@
       </symbol>
       <symbol id="sm-14c0">
          <name>macIncomingSecurityLevelChecking</name>
-         <value>0x1410d</value>
+         <value>0x1310d</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-14c1">
          <name>sAddrExtCmp</name>
-         <value>0x1c6d5</value>
+         <value>0x1b6d5</value>
          <object_component_ref idref="oc-38c"/>
       </symbol>
       <symbol id="sm-14c2">
          <name>macCheckSched</name>
-         <value>0x120df</value>
+         <value>0x110df</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-14c3">
          <name>macBeaconTxCallback</name>
-         <value>0x173bd</value>
+         <value>0x163bd</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-14c4">
          <name>sAddrCmp</name>
-         <value>0x1c6f7</value>
+         <value>0x1b6f7</value>
          <object_component_ref idref="oc-38c"/>
       </symbol>
       <symbol id="sm-14c5">
          <name>FHUTIL_getElapsedTime</name>
-         <value>0x190e9</value>
+         <value>0x180e9</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-14c6">
          <name>osal_memcmp</name>
-         <value>0x156ff</value>
+         <value>0x146ff</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-14c7">
@@ -12136,7 +12136,7 @@
       </symbol>
       <symbol id="sm-14c9">
          <name>osal_enroll_notasksender</name>
-         <value>0x15a53</value>
+         <value>0x14a53</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-14ca">
@@ -12146,12 +12146,12 @@
       </symbol>
       <symbol id="sm-14cb">
          <name>FH_procEDFEReq</name>
-         <value>0x1a5fd</value>
+         <value>0x195fd</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-14cc">
          <name>macDataRxMemAlloc</name>
-         <value>0x122c5</value>
+         <value>0x112c5</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-14cd">
@@ -12166,12 +12166,12 @@
       </symbol>
       <symbol id="sm-14cf">
          <name>msacbackSizeTable</name>
-         <value>0x1d3b4</value>
+         <value>0x1c3b4</value>
          <object_component_ref idref="oc-32c"/>
       </symbol>
       <symbol id="sm-14d0">
          <name>NOROM_CRYPTOAesLoadKey</name>
-         <value>0x1c121</value>
+         <value>0x1b121</value>
          <object_component_ref idref="oc-378"/>
       </symbol>
       <symbol id="sm-14d1">
@@ -12181,77 +12181,77 @@
       </symbol>
       <symbol id="sm-14d2">
          <name>FHUTIL_assert</name>
-         <value>0x1908d</value>
+         <value>0x1808d</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-14d3">
          <name>macRxCb</name>
-         <value>0x15e0d</value>
+         <value>0x14e0d</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-14d4">
          <name>macPollDataReqComplete</name>
-         <value>0x16ebd</value>
+         <value>0x15ebd</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-14d5">
          <name>macRadioTxPrepCsmaSlotted</name>
-         <value>0x12b91</value>
+         <value>0x11b91</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-14d6">
          <name>macRadioTxPrepSlotted</name>
-         <value>0x12cef</value>
+         <value>0x11cef</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-14d7">
          <name>tasksArr</name>
-         <value>0x1d3f4</value>
+         <value>0x1c3f4</value>
          <object_component_ref idref="oc-2f5"/>
       </symbol>
       <symbol id="sm-14d8">
          <name>macApiScanReq</name>
-         <value>0x185dd</value>
+         <value>0x175dd</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-14d9">
          <name>copy_in</name>
-         <value>0x1c8e5</value>
+         <value>0x1b8e5</value>
          <object_component_ref idref="oc-1d0"/>
       </symbol>
       <symbol id="sm-14da">
          <name>osal_init_system</name>
-         <value>0x15ab9</value>
+         <value>0x14ab9</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-14db">
          <name>macUpdateHeaderIEPtr</name>
-         <value>0x1b8cf</value>
+         <value>0x1a8cf</value>
          <object_component_ref idref="oc-3b9"/>
       </symbol>
       <symbol id="sm-14dc">
          <name>macRxCheckMACPendingCallback</name>
-         <value>0x122d5</value>
+         <value>0x112d5</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-14dd">
          <name>macRxPanConflict</name>
-         <value>0x112e1</value>
+         <value>0x102e1</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-14de">
          <name>osal_msg_enqueue</name>
-         <value>0x15759</value>
+         <value>0x14759</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-14df">
          <name>macMcuOverflowSetPeriod</name>
-         <value>0x1b4d7</value>
+         <value>0x1a4d7</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-14e0">
          <name>macPibReset</name>
-         <value>0x1adaf</value>
+         <value>0x19daf</value>
          <object_component_ref idref="oc-305"/>
       </symbol>
       <symbol id="sm-14e1">
@@ -12261,7 +12261,7 @@
       </symbol>
       <symbol id="sm-14e2">
          <name>macDeviceDescriptorLookup</name>
-         <value>0x13ec7</value>
+         <value>0x12ec7</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-14e3">
@@ -12271,37 +12271,37 @@
       </symbol>
       <symbol id="sm-14e4">
          <name>macApiPollReq</name>
-         <value>0x17001</value>
+         <value>0x16001</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-14e5">
          <name>osal_pwrmgr_init</name>
-         <value>0x1c303</value>
+         <value>0x1b303</value>
          <object_component_ref idref="oc-2dc"/>
       </symbol>
       <symbol id="sm-14e6">
          <name>macSendFsCmd</name>
-         <value>0x162b5</value>
+         <value>0x152b5</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-14e7">
          <name>osal_msg_push</name>
-         <value>0x15a01</value>
+         <value>0x14a01</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-14e8">
          <name>macParsePayloadIes</name>
-         <value>0x1b7a9</value>
+         <value>0x1a7a9</value>
          <object_component_ref idref="oc-3b9"/>
       </symbol>
       <symbol id="sm-14e9">
          <name>MAC_InitBeaconCoord</name>
-         <value>0x17537</value>
+         <value>0x16537</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-14ea">
          <name>macStartBroadcastPendTimer</name>
-         <value>0x1653f</value>
+         <value>0x1553f</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-14eb">
@@ -12311,32 +12311,32 @@
       </symbol>
       <symbol id="sm-14ec">
          <name>MAC_MlmeGetReqSize</name>
-         <value>0x1ad9b</value>
+         <value>0x19d9b</value>
          <object_component_ref idref="oc-305"/>
       </symbol>
       <symbol id="sm-14ed">
          <name>macKeyDescriptorLookup</name>
-         <value>0x13e4b</value>
+         <value>0x12e4b</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-14ee">
          <name>macRxEnable</name>
-         <value>0x1bbdb</value>
+         <value>0x1abdb</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-14ef">
          <name>macGetMyAddrMode</name>
-         <value>0xf25d</value>
+         <value>0xe25d</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-14f0">
          <name>macMcuInit</name>
-         <value>0x1b53b</value>
+         <value>0x1a53b</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-14f1">
          <name>macRxSequenceNum</name>
-         <value>0x13d0b</value>
+         <value>0x12d0b</value>
          <object_component_ref idref="oc-33c"/>
       </symbol>
       <symbol id="sm-14f2">
@@ -12346,117 +12346,117 @@
       </symbol>
       <symbol id="sm-14f3">
          <name>FHAPI_stopAsync</name>
-         <value>0x18c69</value>
+         <value>0x17c69</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-14f4">
          <name>macIncomingFrameSecurity</name>
-         <value>0x141e1</value>
+         <value>0x131e1</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-14f5">
          <name>macBuildHeader</name>
-         <value>0xf659</value>
+         <value>0xe659</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-14f6">
          <name>macRadioStartScan</name>
-         <value>0x17c39</value>
+         <value>0x16c39</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-14f7">
          <name>macTimerRemoveTimer</name>
-         <value>0x19cf5</value>
+         <value>0x18cf5</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-14f8">
          <name>macRadioPowerDown</name>
-         <value>0x17de1</value>
+         <value>0x16de1</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-14f9">
          <name>FHDATA_purgeUnSupportedFrameTypes</name>
-         <value>0x1a755</value>
+         <value>0x19755</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-14fa">
          <name>FHDATA_getPktFromQueue</name>
-         <value>0x1a7c9</value>
+         <value>0x197c9</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-14fb">
          <name>NOROM_CRYPTOAesEcbStatus</name>
-         <value>0x1c931</value>
+         <value>0x1b931</value>
          <object_component_ref idref="oc-384"/>
       </symbol>
       <symbol id="sm-14fc">
          <name>FHDATA_checkPktFromQueue</name>
-         <value>0x1a85b</value>
+         <value>0x1985b</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-14fd">
          <name>HAL_APPASRT_callAssrtHanlder</name>
-         <value>0x1c9f9</value>
+         <value>0x1b9f9</value>
          <object_component_ref idref="oc-330"/>
       </symbol>
       <symbol id="sm-14fe">
          <name>macStartBeaconPrepareCallback</name>
-         <value>0x17309</value>
+         <value>0x16309</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-14ff">
          <name>macRxOff</name>
-         <value>0x1bc4b</value>
+         <value>0x1ac4b</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-1500">
          <name>FHMGR_pendUcChUpdate</name>
-         <value>0x1a3f9</value>
+         <value>0x193f9</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-1501">
          <name>FHPIB_reset</name>
-         <value>0x1bd13</value>
+         <value>0x1ad13</value>
          <object_component_ref idref="oc-3a4"/>
       </symbol>
       <symbol id="sm-1502">
          <name>macSymbolTimerSetRollover</name>
-         <value>0x1967b</value>
+         <value>0x1867b</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-1503">
          <name>FHPIB_getLen</name>
-         <value>0x1bcf5</value>
+         <value>0x1acf5</value>
          <object_component_ref idref="oc-3a4"/>
       </symbol>
       <symbol id="sm-1504">
          <name>macMcuOverflowSetCount</name>
-         <value>0x1b443</value>
+         <value>0x1a443</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-1505">
          <name>macRxHaltCleanup</name>
-         <value>0x13cbd</value>
+         <value>0x12cbd</value>
          <object_component_ref idref="oc-33c"/>
       </symbol>
       <symbol id="sm-1506">
          <name>macBuildEnhancedBeacon</name>
-         <value>0x11481</value>
+         <value>0x10481</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1507">
          <name>FHAPI_SFDRxCb</name>
-         <value>0x18f79</value>
+         <value>0x17f79</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-1508">
          <name>macTrackStartCallback</name>
-         <value>0x164f7</value>
+         <value>0x154f7</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-1509">
          <name>macBuildDataFrame</name>
-         <value>0x1248d</value>
+         <value>0x1148d</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-150a">
@@ -12466,22 +12466,22 @@
       </symbol>
       <symbol id="sm-150b">
          <name>macPollRxDisassoc</name>
-         <value>0x16ce3</value>
+         <value>0x15ce3</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-150c">
          <name>macSymbolTimerRolloverCallback</name>
-         <value>0x19d79</value>
+         <value>0x18d79</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-150d">
          <name>macCheckPendAddr</name>
-         <value>0x165b7</value>
+         <value>0x155b7</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-150e">
          <name>macRadioInit</name>
-         <value>0x179ef</value>
+         <value>0x169ef</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-150f">
@@ -12491,57 +12491,57 @@
       </symbol>
       <symbol id="sm-1510">
          <name>macTxAckIsr</name>
-         <value>0x13d4d</value>
+         <value>0x12d4d</value>
          <object_component_ref idref="oc-33c"/>
       </symbol>
       <symbol id="sm-1511">
          <name>macUpdateCsmPhyParam</name>
-         <value>0xf31f</value>
+         <value>0xe31f</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1512">
          <name>macStartContinue</name>
-         <value>0x11a55</value>
+         <value>0x10a55</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1513">
          <name>FHUTIL_noAction</name>
-         <value>0x19095</value>
+         <value>0x18095</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-1514">
          <name>macDataTxDelayCallback</name>
-         <value>0x120db</value>
+         <value>0x110db</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-1515">
          <name>macCbackForEvent</name>
-         <value>0x1a1cd</value>
+         <value>0x191cd</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-1516">
          <name>macTimer</name>
-         <value>0x19f3b</value>
+         <value>0x18f3b</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-1517">
          <name>macRxCompleteCallback</name>
-         <value>0x12319</value>
+         <value>0x11319</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-1518">
          <name>FHIE_getLen</name>
-         <value>0x10baf</value>
+         <value>0xfbaf</value>
          <object_component_ref idref="oc-39e"/>
       </symbol>
       <symbol id="sm-1519">
          <name>macAssocRxDisassoc</name>
-         <value>0x16d7d</value>
+         <value>0x15d7d</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-151a">
          <name>FHUTIL_elapsedTime</name>
-         <value>0x19091</value>
+         <value>0x18091</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-151b">
@@ -12551,12 +12551,12 @@
       </symbol>
       <symbol id="sm-151c">
          <name>FHUTIL_compBfioTxTime</name>
-         <value>0x19409</value>
+         <value>0x18409</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-151d">
          <name>macRadioUpdateChannel</name>
-         <value>0x17cfd</value>
+         <value>0x16cfd</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-151e">
@@ -12566,22 +12566,22 @@
       </symbol>
       <symbol id="sm-151f">
          <name>macDataTxSend</name>
-         <value>0x1268d</value>
+         <value>0x1168d</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-1520">
          <name>macAssociateCnf</name>
-         <value>0x16cfd</value>
+         <value>0x15cfd</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1521">
          <name>osal_enroll_dispatchid</name>
-         <value>0x15a47</value>
+         <value>0x14a47</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-1522">
          <name>macDisassocComplete</name>
-         <value>0xf0f1</value>
+         <value>0xe0f1</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1523">
@@ -12591,52 +12591,52 @@
       </symbol>
       <symbol id="sm-1524">
          <name>macLowLevelResume</name>
-         <value>0x179ef</value>
+         <value>0x169ef</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1525">
          <name>macAssocDataReqComplete</name>
-         <value>0x16fb5</value>
+         <value>0x15fb5</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1526">
          <name>FHUTIL_getCurBfio</name>
-         <value>0x190fb</value>
+         <value>0x180fb</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-1527">
          <name>macTrackPeriodCallback</name>
-         <value>0x167dd</value>
+         <value>0x157dd</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-1528">
          <name>macTxAckReceivedCallback</name>
-         <value>0x146b1</value>
+         <value>0x136b1</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-1529">
          <name>macPollFrameResponseTimeout</name>
-         <value>0x16ca9</value>
+         <value>0x15ca9</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-152a">
          <name>FHUTIL_getMaxChannels</name>
-         <value>0x18fd9</value>
+         <value>0x17fd9</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-152b">
          <name>macCcmStarTransform</name>
-         <value>0x14483</value>
+         <value>0x13483</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-152c">
          <name>macSetUserConfig</name>
-         <value>0x16425</value>
+         <value>0x15425</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-152d">
          <name>macApiPurgeReq</name>
-         <value>0x11f09</value>
+         <value>0x10f09</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-152e">
@@ -12651,27 +12651,27 @@
       </symbol>
       <symbol id="sm-1530">
          <name>FHMGR_macCancelFHTimer</name>
-         <value>0x1a469</value>
+         <value>0x19469</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-1531">
          <name>HalTRNG_GetTRNG</name>
-         <value>0x1c7b5</value>
+         <value>0x1b7b5</value>
          <object_component_ref idref="oc-1f5"/>
       </symbol>
       <symbol id="sm-1532">
          <name>macWrapperAddDevice</name>
-         <value>0x15399</value>
+         <value>0x14399</value>
          <object_component_ref idref="oc-30b"/>
       </symbol>
       <symbol id="sm-1533">
          <name>macSecCpy</name>
-         <value>0xf065</value>
+         <value>0xe065</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1534">
          <name>FHAPI_reset</name>
-         <value>0x18ae1</value>
+         <value>0x17ae1</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-1535">
@@ -12681,7 +12681,7 @@
       </symbol>
       <symbol id="sm-1536">
          <name>macLowLevelYield</name>
-         <value>0x1c3b9</value>
+         <value>0x1b3b9</value>
          <object_component_ref idref="oc-21f"/>
       </symbol>
       <symbol id="sm-1537">
@@ -12711,37 +12711,37 @@
       </symbol>
       <symbol id="sm-153c">
          <name>macSymbolTimerReset</name>
-         <value>0x194d9</value>
+         <value>0x184d9</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-153d">
          <name>macTxTimestampCallback</name>
-         <value>0x14b0d</value>
+         <value>0x13b0d</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-153e">
          <name>osal_msg_send</name>
-         <value>0x15951</value>
+         <value>0x14951</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-153f">
          <name>macLowLevelBufferInit</name>
-         <value>0x1c3eb</value>
+         <value>0x1b3eb</value>
          <object_component_ref idref="oc-21f"/>
       </symbol>
       <symbol id="sm-1540">
          <name>macIndirectSend</name>
-         <value>0x11a91</value>
+         <value>0x10a91</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1541">
          <name>stack_main</name>
-         <value>0x1bfe3</value>
+         <value>0x1afe3</value>
          <object_component_ref idref="oc-4f"/>
       </symbol>
       <symbol id="sm-1542">
          <name>macCoordReset</name>
-         <value>0x11271</value>
+         <value>0x10271</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1543">
@@ -12751,7 +12751,7 @@
       </symbol>
       <symbol id="sm-1544">
          <name>MAC_MlmeAssociateReq</name>
-         <value>0x1704b</value>
+         <value>0x1604b</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1545">
@@ -12766,17 +12766,17 @@
       </symbol>
       <symbol id="sm-1547">
          <name>__aeabi_idiv0</name>
-         <value>0x1b3b3</value>
+         <value>0x1a3b3</value>
          <object_component_ref idref="oc-50a"/>
       </symbol>
       <symbol id="sm-1548">
          <name>macBeaconStartContinue</name>
-         <value>0x17585</value>
+         <value>0x16585</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-1549">
          <name>macDestAddrCmp</name>
-         <value>0xf26f</value>
+         <value>0xe26f</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-154a">
@@ -12786,7 +12786,7 @@
       </symbol>
       <symbol id="sm-154b">
          <name>macSymbolTimerSetTrigger</name>
-         <value>0x197f1</value>
+         <value>0x187f1</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-154c">
@@ -12796,22 +12796,22 @@
       </symbol>
       <symbol id="sm-154d">
          <name>macSetupFsCmd</name>
-         <value>0x15d8d</value>
+         <value>0x14d8d</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-154e">
          <name>__TI_zero_init</name>
-         <value>0x1ca63</value>
+         <value>0x1ba63</value>
          <object_component_ref idref="oc-21"/>
       </symbol>
       <symbol id="sm-154f">
          <name>macScanStartTimer</name>
-         <value>0x18a65</value>
+         <value>0x17a65</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-1550">
          <name>macRxOnOffInit</name>
-         <value>0x1bc87</value>
+         <value>0x1ac87</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-1551">
@@ -12821,32 +12821,32 @@
       </symbol>
       <symbol id="sm-1552">
          <name>FH_stateMatrix</name>
-         <value>0x1cdd0</value>
+         <value>0x1bdd0</value>
          <object_component_ref idref="oc-532"/>
       </symbol>
       <symbol id="sm-1553">
          <name>macUpdatePayloadIEPtr</name>
-         <value>0x1b93f</value>
+         <value>0x1a93f</value>
          <object_component_ref idref="oc-3b9"/>
       </symbol>
       <symbol id="sm-1554">
          <name>macStateIdle</name>
-         <value>0x1a073</value>
+         <value>0x19073</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-1555">
          <name>macRadioStopScan</name>
-         <value>0x1791b</value>
+         <value>0x1691b</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1556">
          <name>macBeaconCoordReset</name>
-         <value>0x17475</value>
+         <value>0x16475</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-1557">
          <name>memcmp</name>
-         <value>0x1c9d5</value>
+         <value>0x1b9d5</value>
          <object_component_ref idref="oc-482"/>
       </symbol>
       <symbol id="sm-1558">
@@ -12856,27 +12856,27 @@
       </symbol>
       <symbol id="sm-1559">
          <name>macAllocTxBuffer</name>
-         <value>0x127a9</value>
+         <value>0x117a9</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-155a">
          <name>macBuildAssociateReq</name>
-         <value>0x17087</value>
+         <value>0x16087</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-155b">
          <name>macRadioSendEnhAck</name>
-         <value>0x12af9</value>
+         <value>0x11af9</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-155c">
          <name>FHUTIL_getBitCounts</name>
-         <value>0x18fff</value>
+         <value>0x17fff</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-155d">
          <name>sAddrExtCpy</name>
-         <value>0x1c6f1</value>
+         <value>0x1b6f1</value>
          <object_component_ref idref="oc-38c"/>
       </symbol>
       <symbol id="sm-155e">
@@ -12886,12 +12886,12 @@
       </symbol>
       <symbol id="sm-155f">
          <name>FHAPI_sendData</name>
-         <value>0x18c95</value>
+         <value>0x17c95</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-1560">
          <name>macRxInit</name>
-         <value>0x13d5f</value>
+         <value>0x12d5f</value>
          <object_component_ref idref="oc-33c"/>
       </symbol>
       <symbol id="sm-1561">
@@ -12906,47 +12906,47 @@
       </symbol>
       <symbol id="sm-1563">
          <name>macTxInit</name>
-         <value>0x14e5d</value>
+         <value>0x13e5d</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-1564">
          <name>osal_msg_receive</name>
-         <value>0x1569d</value>
+         <value>0x1469d</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-1565">
          <name>macCanSleep</name>
-         <value>0x1c7f5</value>
+         <value>0x1b7f5</value>
          <object_component_ref idref="oc-435"/>
       </symbol>
       <symbol id="sm-1566">
          <name>FHNT_purgeEntry</name>
-         <value>0x1ab3d</value>
+         <value>0x19b3d</value>
          <object_component_ref idref="oc-467"/>
       </symbol>
       <symbol id="sm-1567">
          <name>macRadioCsmaTxCb</name>
-         <value>0x131a1</value>
+         <value>0x121a1</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1568">
          <name>macSendMsgDataSize</name>
-         <value>0x1cf60</value>
+         <value>0x1bf60</value>
          <object_component_ref idref="oc-3c6"/>
       </symbol>
       <symbol id="sm-1569">
          <name>macRegisterSfdDetect</name>
-         <value>0x15dbf</value>
+         <value>0x14dbf</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-156a">
          <name>osal_mem_alloc</name>
-         <value>0x1c8d7</value>
+         <value>0x1b8d7</value>
          <object_component_ref idref="oc-1dd"/>
       </symbol>
       <symbol id="sm-156b">
          <name>macStackTaskInit</name>
-         <value>0x184d9</value>
+         <value>0x174d9</value>
          <object_component_ref idref="oc-1e9"/>
       </symbol>
       <symbol id="sm-156c">
@@ -12956,22 +12956,22 @@
       </symbol>
       <symbol id="sm-156d">
          <name>macBuildHeaderIes</name>
-         <value>0x1a925</value>
+         <value>0x19925</value>
          <object_component_ref idref="oc-3aa"/>
       </symbol>
       <symbol id="sm-156e">
          <name>macApiAssociateRsp</name>
-         <value>0x11755</value>
+         <value>0x10755</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-156f">
          <name>macApiBadState</name>
-         <value>0xf219</value>
+         <value>0xe219</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1570">
          <name>macPollingSt</name>
-         <value>0x1d064</value>
+         <value>0x1c064</value>
          <object_component_ref idref="oc-3c6"/>
       </symbol>
       <symbol id="sm-1571">
@@ -12981,7 +12981,7 @@
       </symbol>
       <symbol id="sm-1572">
          <name>macApiWSAsyncReq</name>
-         <value>0xfa43</value>
+         <value>0xea43</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1573">
@@ -12991,37 +12991,37 @@
       </symbol>
       <symbol id="sm-1574">
          <name>macRadioWakeupCb</name>
-         <value>0x17be5</value>
+         <value>0x16be5</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1575">
          <name>FHDH1CF_getBCChannelNum</name>
-         <value>0x1babd</value>
+         <value>0x1aabd</value>
          <object_component_ref idref="oc-51e"/>
       </symbol>
       <symbol id="sm-1576">
          <name>MAC_CbackQueryRetransmit</name>
-         <value>0x18495</value>
+         <value>0x17495</value>
          <object_component_ref idref="oc-1e9"/>
       </symbol>
       <symbol id="sm-1577">
          <name>macRadioTxAckCb</name>
-         <value>0x132dd</value>
+         <value>0x122dd</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1578">
          <name>macStartingSt</name>
-         <value>0x1cf90</value>
+         <value>0x1bf90</value>
          <object_component_ref idref="oc-3c6"/>
       </symbol>
       <symbol id="sm-1579">
          <name>macPwrReset</name>
-         <value>0x1c73b</value>
+         <value>0x1b73b</value>
          <object_component_ref idref="oc-336"/>
       </symbol>
       <symbol id="sm-157a">
          <name>tasksCnt</name>
-         <value>0x1d3f8</value>
+         <value>0x1c3f8</value>
          <object_component_ref idref="oc-2f5"/>
       </symbol>
       <symbol id="sm-157b">
@@ -13031,22 +13031,22 @@
       </symbol>
       <symbol id="sm-157c">
          <name>macStartSetParams</name>
-         <value>0x11789</value>
+         <value>0x10789</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-157d">
          <name>macRxNokIsr</name>
-         <value>0x13483</value>
+         <value>0x12483</value>
          <object_component_ref idref="oc-33c"/>
       </symbol>
       <symbol id="sm-157e">
          <name>macApiDataReq</name>
-         <value>0x12599</value>
+         <value>0x11599</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-157f">
          <name>macTimerSetRollover</name>
-         <value>0x19e47</value>
+         <value>0x18e47</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-1580">
@@ -13056,32 +13056,32 @@
       </symbol>
       <symbol id="sm-1581">
          <name>macAutoPoll</name>
-         <value>0x1683d</value>
+         <value>0x1583d</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-1582">
          <name>macRadioTxPrepCsmaUnslotted</name>
-         <value>0x12bed</value>
+         <value>0x11bed</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1583">
          <name>MAC_MlmeOrphanRsp</name>
-         <value>0x119f7</value>
+         <value>0x109f7</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1584">
          <name>macTxFrameFailed</name>
-         <value>0x1d259</value>
+         <value>0x1c259</value>
          <object_component_ref idref="oc-3b6"/>
       </symbol>
       <symbol id="sm-1585">
          <name>macRadioTxPrepLbt</name>
-         <value>0x12c41</value>
+         <value>0x11c41</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1586">
          <name>macCoordAddrCmp</name>
-         <value>0xf06b</value>
+         <value>0xe06b</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1587">
@@ -13091,12 +13091,12 @@
       </symbol>
       <symbol id="sm-1588">
          <name>MAC_MlmeFHGetReq</name>
-         <value>0xf345</value>
+         <value>0xe345</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1589">
          <name>macSetEvent</name>
-         <value>0x1a18d</value>
+         <value>0x1918d</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-158a">
@@ -13106,47 +13106,47 @@
       </symbol>
       <symbol id="sm-158b">
          <name>FHDH1CF_getCh</name>
-         <value>0x1b9d1</value>
+         <value>0x1a9d1</value>
          <object_component_ref idref="oc-51e"/>
       </symbol>
       <symbol id="sm-158c">
          <name>MAC_ResumeReq</name>
-         <value>0xf3b9</value>
+         <value>0xe3b9</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-158d">
          <name>MAC_MlmeDisassociateReq</name>
-         <value>0xf40d</value>
+         <value>0xe40d</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-158e">
          <name>sAddrCpy</name>
-         <value>0x1c723</value>
+         <value>0x1b723</value>
          <object_component_ref idref="oc-38c"/>
       </symbol>
       <symbol id="sm-158f">
          <name>macBeaconSetupCap</name>
-         <value>0x1af87</value>
+         <value>0x19f87</value>
          <object_component_ref idref="oc-3d1"/>
       </symbol>
       <symbol id="sm-1590">
          <name>macRadioTxRequestTxAck</name>
-         <value>0x12aa1</value>
+         <value>0x11aa1</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1591">
          <name>FHPIB_set</name>
-         <value>0x1bd1f</value>
+         <value>0x1ad1f</value>
          <object_component_ref idref="oc-3a4"/>
       </symbol>
       <symbol id="sm-1592">
          <name>macTimerSyncRollover</name>
-         <value>0x19d35</value>
+         <value>0x18d35</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-1593">
          <name>macRxOn</name>
-         <value>0x1bb7d</value>
+         <value>0x1ab7d</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-1594">
@@ -13161,77 +13161,77 @@
       </symbol>
       <symbol id="sm-1596">
          <name>macBuildPendAddr</name>
-         <value>0x11c51</value>
+         <value>0x10c51</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1597">
          <name>macConflictSyncLossInd</name>
-         <value>0xf241</value>
+         <value>0xe241</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1598">
          <name>macScanningSt</name>
-         <value>0x1d30a</value>
+         <value>0x1c30a</value>
          <object_component_ref idref="oc-3f9"/>
       </symbol>
       <symbol id="sm-1599">
          <name>FHUTIL_getBcTxParams</name>
-         <value>0x19187</value>
+         <value>0x18187</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-159a">
          <name>MAC_MlmeFHSetReq</name>
-         <value>0xf375</value>
+         <value>0xe375</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-159b">
          <name>macRadioTxCancelTxAck</name>
-         <value>0x12b3f</value>
+         <value>0x11b3f</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-159c">
          <name>macRadioSetIEEEAddr</name>
-         <value>0x17bd3</value>
+         <value>0x16bd3</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-159d">
          <name>macBeaconPeriodCallback</name>
-         <value>0x178a1</value>
+         <value>0x168a1</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-159e">
          <name>MAC_MlmeScanReq</name>
-         <value>0x18543</value>
+         <value>0x17543</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-159f">
          <name>FHUTIL_getCh0</name>
-         <value>0x193a5</value>
+         <value>0x183a5</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-15a0">
          <name>macPollCnf</name>
-         <value>0x16c91</value>
+         <value>0x15c91</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-15a1">
          <name>macSetSched</name>
-         <value>0x120ef</value>
+         <value>0x110ef</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-15a2">
          <name>macFrameDuration</name>
-         <value>0x120b9</value>
+         <value>0x110b9</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-15a3">
          <name>macSecurityPibIndex</name>
-         <value>0x19901</value>
+         <value>0x18901</value>
          <object_component_ref idref="oc-2f9"/>
       </symbol>
       <symbol id="sm-15a4">
          <name>FHUTIL_getTxChannel</name>
-         <value>0x1933b</value>
+         <value>0x1833b</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-15a5">
@@ -13241,82 +13241,82 @@
       </symbol>
       <symbol id="sm-15a6">
          <name>MAC_McpsPurgeReq</name>
-         <value>0x11a0b</value>
+         <value>0x10a0b</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-15a7">
          <name>macPwrVote</name>
-         <value>0x1c743</value>
+         <value>0x1b743</value>
          <object_component_ref idref="oc-336"/>
       </symbol>
       <symbol id="sm-15a8">
          <name>macStackEventLoop</name>
-         <value>0x1825d</value>
+         <value>0x1725d</value>
          <object_component_ref idref="oc-1e9"/>
       </symbol>
       <symbol id="sm-15a9">
          <name>macRxDisassoc</name>
-         <value>0xf091</value>
+         <value>0xe091</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-15aa">
          <name>FHMGR_ucTimerIsrCb</name>
-         <value>0x1a50f</value>
+         <value>0x1950f</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-15ab">
          <name>macIncomingFrameSecurityMaterialRetrieval</name>
-         <value>0x13f93</value>
+         <value>0x12f93</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-15ac">
          <name>FHNT_createEntry</name>
-         <value>0x1aca7</value>
+         <value>0x19ca7</value>
          <object_component_ref idref="oc-467"/>
       </symbol>
       <symbol id="sm-15ad">
          <name>macWrapperDeleteAllDevices</name>
-         <value>0x15083</value>
+         <value>0x14083</value>
          <object_component_ref idref="oc-30b"/>
       </symbol>
       <symbol id="sm-15ae">
          <name>macRadioSetChannel</name>
-         <value>0x17d65</value>
+         <value>0x16d65</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-15af">
          <name>FHIE_parsePie</name>
-         <value>0x1105d</value>
+         <value>0x1005d</value>
          <object_component_ref idref="oc-39e"/>
       </symbol>
       <symbol id="sm-15b0">
          <name>fhSupFrameTypes</name>
-         <value>0x1d3dc</value>
+         <value>0x1c3dc</value>
          <object_component_ref idref="oc-52a"/>
       </symbol>
       <symbol id="sm-15b1">
          <name>ChipInfo_GetChipFamily</name>
-         <value>0x1c84d</value>
+         <value>0x1b84d</value>
          <object_component_ref idref="oc-53d"/>
       </symbol>
       <symbol id="sm-15b2">
          <name>macSymbolTimerPowerDown</name>
-         <value>0x1957d</value>
+         <value>0x1857d</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-15b3">
          <name>FHNT_init</name>
-         <value>0x1ab25</value>
+         <value>0x19b25</value>
          <object_component_ref idref="oc-467"/>
       </symbol>
       <symbol id="sm-15b4">
          <name>macBuildPayloadCoexistIe</name>
-         <value>0x1a891</value>
+         <value>0x19891</value>
          <object_component_ref idref="oc-3aa"/>
       </symbol>
       <symbol id="sm-15b5">
          <name>FHDATA_purgePktFromQueue</name>
-         <value>0x1a6ef</value>
+         <value>0x196ef</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-15b6">
@@ -13326,17 +13326,17 @@
       </symbol>
       <symbol id="sm-15b7">
          <name>macTxDecrypt</name>
-         <value>0x149b5</value>
+         <value>0x139b5</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-15b8">
          <name>osal_memset</name>
-         <value>0x15645</value>
+         <value>0x14645</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-15b9">
          <name>macBuildPayloadIes</name>
-         <value>0x1a9eb</value>
+         <value>0x199eb</value>
          <object_component_ref idref="oc-3aa"/>
       </symbol>
       <symbol id="sm-15ba">
@@ -13346,77 +13346,77 @@
       </symbol>
       <symbol id="sm-15bb">
          <name>macDataTxEnqueue</name>
-         <value>0x1240d</value>
+         <value>0x1140d</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-15bc">
          <name>macBuildWSAsyncMsg</name>
-         <value>0xf8d9</value>
+         <value>0xe8d9</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-15bd">
          <name>macStartFrameResponseTimer</name>
-         <value>0x16da1</value>
+         <value>0x15da1</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-15be">
          <name>macBroadcastPendCallback</name>
-         <value>0x164f1</value>
+         <value>0x154f1</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-15bf">
          <name>macSendMsgBufSize</name>
-         <value>0x1cf78</value>
+         <value>0x1bf78</value>
          <object_component_ref idref="oc-3c6"/>
       </symbol>
       <symbol id="sm-15c0">
          <name>macSyncTimeoutCallback</name>
-         <value>0x16b41</value>
+         <value>0x15b41</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-15c1">
          <name>macAssocDataReq</name>
-         <value>0x1722f</value>
+         <value>0x1622f</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-15c2">
          <name>macBeaconSetSched</name>
-         <value>0x1b019</value>
+         <value>0x1a019</value>
          <object_component_ref idref="oc-3d1"/>
       </symbol>
       <symbol id="sm-15c3">
          <name>ChipInfo_GetHwRevision</name>
-         <value>0x1c4b9</value>
+         <value>0x1b4b9</value>
          <object_component_ref idref="oc-4ae"/>
       </symbol>
       <symbol id="sm-15c4">
          <name>macScanNextChan</name>
-         <value>0x187e9</value>
+         <value>0x177e9</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-15c5">
          <name>MAC_CbackCheckPending</name>
-         <value>0x183bf</value>
+         <value>0x173bf</value>
          <object_component_ref idref="oc-1e9"/>
       </symbol>
       <symbol id="sm-15c6">
          <name>macBeaconClearIndirect</name>
-         <value>0x1785d</value>
+         <value>0x1685d</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-15c7">
          <name>macSendMsg</name>
-         <value>0x1a29b</value>
+         <value>0x1929b</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-15c8">
          <name>macSymbolSetupPwrMgmt</name>
-         <value>0x19895</value>
+         <value>0x18895</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-15c9">
          <name>macRadioSendImmAck</name>
-         <value>0x12ab9</value>
+         <value>0x11ab9</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-15ca">
@@ -13426,17 +13426,17 @@
       </symbol>
       <symbol id="sm-15cb">
          <name>macRadioSetPanCoordinator</name>
-         <value>0x1798b</value>
+         <value>0x1698b</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-15cc">
          <name>macMainReserve</name>
-         <value>0x1a065</value>
+         <value>0x19065</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-15cd">
          <name>macGetRadioTxPowerReg</name>
-         <value>0x17931</value>
+         <value>0x16931</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-15ce">
@@ -13446,62 +13446,62 @@
       </symbol>
       <symbol id="sm-15cf">
          <name>MAC_MlmeSetSecurityReq</name>
-         <value>0x199d5</value>
+         <value>0x189d5</value>
          <object_component_ref idref="oc-2f9"/>
       </symbol>
       <symbol id="sm-15d0">
          <name>macNoAction</name>
-         <value>0xf23f</value>
+         <value>0xe23f</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-15d1">
          <name>macTxDoneCallback</name>
-         <value>0x14b41</value>
+         <value>0x13b41</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-15d2">
          <name>FHDATA_requeuePkt</name>
-         <value>0x1a6a9</value>
+         <value>0x196a9</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-15d3">
          <name>macRxBeaconReq</name>
-         <value>0x115cd</value>
+         <value>0x105cd</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-15d4">
          <name>osal_msg_allocate</name>
-         <value>0x159dd</value>
+         <value>0x149dd</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-15d5">
          <name>macDataTxComplete</name>
-         <value>0x128cd</value>
+         <value>0x118cd</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-15d6">
          <name>macTimerUpdateSymbolTimer</name>
-         <value>0x19f53</value>
+         <value>0x18f53</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-15d7">
          <name>macRadioSetTxPower</name>
-         <value>0x17977</value>
+         <value>0x16977</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-15d8">
          <name>startup_entry</name>
-         <value>0xf001</value>
+         <value>0xe001</value>
          <object_component_ref idref="oc-27"/>
       </symbol>
       <symbol id="sm-15d9">
          <name>macTxCompleteCallback</name>
-         <value>0x12945</value>
+         <value>0x11945</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-15da">
          <name>macGetCoordAddress</name>
-         <value>0xf2f5</value>
+         <value>0xe2f5</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-15db">
@@ -13516,37 +13516,37 @@
       </symbol>
       <symbol id="sm-15dd">
          <name>osal_pwrmgr_task_state</name>
-         <value>0x1c29b</value>
+         <value>0x1b29b</value>
          <object_component_ref idref="oc-2dc"/>
       </symbol>
       <symbol id="sm-15de">
          <name>macSetupRATChanCompare</name>
-         <value>0x160dd</value>
+         <value>0x150dd</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-15df">
          <name>macCmdIncludeFHIe</name>
-         <value>0x1d268</value>
+         <value>0x1c268</value>
          <object_component_ref idref="oc-3b6"/>
       </symbol>
       <symbol id="sm-15e0">
          <name>macMlmeSubIePresent</name>
-         <value>0x1b855</value>
+         <value>0x1a855</value>
          <object_component_ref idref="oc-3b9"/>
       </symbol>
       <symbol id="sm-15e1">
          <name>macRadioSetPanID</name>
-         <value>0x17bbd</value>
+         <value>0x16bbd</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-15e2">
          <name>macSetTxPowerVal</name>
-         <value>0x16347</value>
+         <value>0x15347</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-15e3">
          <name>macSetupReceiveCmd</name>
-         <value>0x16279</value>
+         <value>0x15279</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-15e4">
@@ -13556,12 +13556,12 @@
       </symbol>
       <symbol id="sm-15e5">
          <name>macRxEnhancedBeaconReq</name>
-         <value>0x11e55</value>
+         <value>0x10e55</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-15e6">
          <name>osal_memcpy</name>
-         <value>0x1562d</value>
+         <value>0x1462d</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-15e7">
@@ -13571,7 +13571,7 @@
       </symbol>
       <symbol id="sm-15e8">
          <name>macBeaconSetupBroadcast</name>
-         <value>0x17655</value>
+         <value>0x16655</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-15e9">
@@ -13581,27 +13581,27 @@
       </symbol>
       <symbol id="sm-15ea">
          <name>FHAPI_getTxParams</name>
-         <value>0x18d4d</value>
+         <value>0x17d4d</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-15eb">
          <name>MAC_MlmeResetReq</name>
-         <value>0xf461</value>
+         <value>0xe461</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-15ec">
          <name>macProcessEBeaconFilterIe</name>
-         <value>0x11411</value>
+         <value>0x10411</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-15ed">
          <name>FHUTIl_updateBTIE</name>
-         <value>0x1941d</value>
+         <value>0x1841d</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-15ee">
          <name>HAL_APPASRT_register</name>
-         <value>0x1ca05</value>
+         <value>0x1ba05</value>
          <object_component_ref idref="oc-330"/>
       </symbol>
       <symbol id="sm-15ef">
@@ -13611,52 +13611,52 @@
       </symbol>
       <symbol id="sm-15f0">
          <name>macTxStartQueuedFrame</name>
-         <value>0x14c41</value>
+         <value>0x13c41</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-15f1">
          <name>FHMGR_updateRadioBCChannel</name>
-         <value>0x1a347</value>
+         <value>0x19347</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-15f2">
          <name>macApiPwrOnReq</name>
-         <value>0x1c739</value>
+         <value>0x1b739</value>
          <object_component_ref idref="oc-336"/>
       </symbol>
       <symbol id="sm-15f3">
          <name>FHDH1CF_hashword</name>
-         <value>0x1b995</value>
+         <value>0x1a995</value>
          <object_component_ref idref="oc-51e"/>
       </symbol>
       <symbol id="sm-15f4">
          <name>macIndirectExpire</name>
-         <value>0x11ba1</value>
+         <value>0x10ba1</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-15f5">
          <name>MAC_MlmeStartReq</name>
-         <value>0x119ef</value>
+         <value>0x109ef</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-15f6">
          <name>MAC_MlmeSyncReq</name>
-         <value>0x100eb</value>
+         <value>0xf0eb</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-15f7">
          <name>macApiUnsupported</name>
-         <value>0x100d9</value>
+         <value>0xf0d9</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-15f8">
          <name>macMcuBitReverse</name>
-         <value>0x1b3b5</value>
+         <value>0x1a3b5</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-15f9">
          <name>FHUTIL_updateUcNumChannels</name>
-         <value>0x19057</value>
+         <value>0x18057</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-15fa">
@@ -13666,22 +13666,22 @@
       </symbol>
       <symbol id="sm-15fb">
          <name>macDeviceReset</name>
-         <value>0x16bc1</value>
+         <value>0x15bc1</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-15fc">
          <name>macRxBeacon</name>
-         <value>0xfead</value>
+         <value>0xeead</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-15fd">
          <name>macBuildRealign</name>
-         <value>0x1131f</value>
+         <value>0x1031f</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-15fe">
          <name>macRxOrphan</name>
-         <value>0x112ef</value>
+         <value>0x102ef</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-15ff">
@@ -13691,32 +13691,32 @@
       </symbol>
       <symbol id="sm-1600">
          <name>FHAPI_setStateCb</name>
-         <value>0x18f2f</value>
+         <value>0x17f2f</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-1601">
          <name>macRxOnRequest</name>
-         <value>0x1bb49</value>
+         <value>0x1ab49</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-1602">
          <name>FHMGR_macStartFHTimer</name>
-         <value>0x1a4c3</value>
+         <value>0x194c3</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-1603">
          <name>osal_mem_free</name>
-         <value>0x1c899</value>
+         <value>0x1b899</value>
          <object_component_ref idref="oc-1dd"/>
       </symbol>
       <symbol id="sm-1604">
          <name>FHAPI_completeTxCb</name>
-         <value>0x18db5</value>
+         <value>0x17db5</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-1605">
          <name>mac_msg_deallocate</name>
-         <value>0x1a197</value>
+         <value>0x19197</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-1606">
@@ -13726,22 +13726,22 @@
       </symbol>
       <symbol id="sm-1607">
          <name>MAC_MlmeWSAsyncReq</name>
-         <value>0xf367</value>
+         <value>0xe367</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1608">
          <name>macBuildCommonReq</name>
-         <value>0xfb9d</value>
+         <value>0xeb9d</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1609">
          <name>macSymbolTimerPeriodIsr</name>
-         <value>0x19525</value>
+         <value>0x18525</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-160a">
          <name>macTimerStart</name>
-         <value>0x19e27</value>
+         <value>0x18e27</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-160b">
@@ -13751,107 +13751,107 @@
       </symbol>
       <symbol id="sm-160c">
          <name>macMcuRandomByte</name>
-         <value>0x1b439</value>
+         <value>0x1a439</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-160d">
          <name>macTxBeaconCompleteCallback</name>
-         <value>0x176f9</value>
+         <value>0x166f9</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-160e">
          <name>macRadioTxGoGreenPower</name>
-         <value>0x13007</value>
+         <value>0x12007</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-160f">
          <name>macScanFailedInProgress</name>
-         <value>0x187bf</value>
+         <value>0x177bf</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-1610">
          <name>FHUTIL_getGuardTime</name>
-         <value>0x191d9</value>
+         <value>0x181d9</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-1611">
          <name>macIndirectTxFrame</name>
-         <value>0x11f83</value>
+         <value>0x10f83</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1612">
          <name>macApiPending</name>
-         <value>0xf21f</value>
+         <value>0xe21f</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1613">
          <name>macCommStatusInd</name>
-         <value>0xf13b</value>
+         <value>0xe13b</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1614">
          <name>macSymbolTimerInit</name>
-         <value>0x194d9</value>
+         <value>0x184d9</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-1615">
          <name>FSM_transaction_debug</name>
-         <value>0x1c529</value>
+         <value>0x1b529</value>
          <object_component_ref idref="oc-479"/>
       </symbol>
       <symbol id="sm-1616">
          <name>macTimerGetTime</name>
-         <value>0x19835</value>
+         <value>0x18835</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-1617">
          <name>macRadioPowerUpWait</name>
-         <value>0x17ebd</value>
+         <value>0x16ebd</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1618">
          <name>macSymbolTimerRealign</name>
-         <value>0x196d9</value>
+         <value>0x186d9</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-1619">
          <name>macAssocDataRxInd</name>
-         <value>0x16f55</value>
+         <value>0x15f55</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-161a">
          <name>macSymbolTimerRestore</name>
-         <value>0x195a9</value>
+         <value>0x185a9</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-161b">
          <name>macGetCSMPhy</name>
-         <value>0xf317</value>
+         <value>0xe317</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-161c">
          <name>macWrapperDeleteKeyAndAssociatedDevices</name>
-         <value>0x15163</value>
+         <value>0x14163</value>
          <object_component_ref idref="oc-30b"/>
       </symbol>
       <symbol id="sm-161d">
          <name>macRadioTxGo</name>
-         <value>0x12d89</value>
+         <value>0x11d89</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-161e">
          <name>macBuildBeacon</name>
-         <value>0x11d39</value>
+         <value>0x10d39</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-161f">
          <name>NOROM_CRYPTOAesEcb</name>
-         <value>0x1c075</value>
+         <value>0x1b075</value>
          <object_component_ref idref="oc-37e"/>
       </symbol>
       <symbol id="sm-1620">
          <name>macBeaconReset</name>
-         <value>0x1afe7</value>
+         <value>0x19fe7</value>
          <object_component_ref idref="oc-3d1"/>
       </symbol>
       <symbol id="sm-1621">
@@ -13861,17 +13861,17 @@
       </symbol>
       <symbol id="sm-1622">
          <name>macIndirectMark</name>
-         <value>0x11fdd</value>
+         <value>0x10fdd</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1623">
          <name>FHMGR_updateHopping</name>
-         <value>0x1a39d</value>
+         <value>0x1939d</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-1624">
          <name>macTxFrameSuccess</name>
-         <value>0x1d24b</value>
+         <value>0x1c24b</value>
          <object_component_ref idref="oc-3b6"/>
       </symbol>
       <symbol id="sm-1625">
@@ -13881,12 +13881,12 @@
       </symbol>
       <symbol id="sm-1626">
          <name>MAC_MlmeSetReq</name>
-         <value>0x1add1</value>
+         <value>0x19dd1</value>
          <object_component_ref idref="oc-305"/>
       </symbol>
       <symbol id="sm-1627">
          <name>macTxRequestCsmaDelay</name>
-         <value>0x14711</value>
+         <value>0x13711</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-1628">
@@ -13896,12 +13896,12 @@
       </symbol>
       <symbol id="sm-1629">
          <name>FHAPI_startBS</name>
-         <value>0x18c01</value>
+         <value>0x17c01</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-162a">
          <name>macLowLevelReset</name>
-         <value>0x194d9</value>
+         <value>0x184d9</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-162b">
@@ -13911,27 +13911,27 @@
       </symbol>
       <symbol id="sm-162c">
          <name>macBeaconPrepareCallback</name>
-         <value>0x172a7</value>
+         <value>0x162a7</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-162d">
          <name>macScanCnfInit</name>
-         <value>0x18519</value>
+         <value>0x17519</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-162e">
          <name>MAC_MlmeGetReq</name>
-         <value>0x1af01</value>
+         <value>0x19f01</value>
          <object_component_ref idref="oc-305"/>
       </symbol>
       <symbol id="sm-162f">
          <name>macDataRxInd</name>
-         <value>0x120a9</value>
+         <value>0x110a9</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-1630">
          <name>FHAPI_completeRxCb</name>
-         <value>0x18e89</value>
+         <value>0x17e89</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-1631">
@@ -13946,42 +13946,42 @@
       </symbol>
       <symbol id="sm-1633">
          <name>FHMGR_macGetElapsedFHTime</name>
-         <value>0x1a339</value>
+         <value>0x19339</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-1634">
          <name>FHDATA_procASYNCReq</name>
-         <value>0x1a60b</value>
+         <value>0x1960b</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-1635">
          <name>macRadioSetShortAddr</name>
-         <value>0x17bc7</value>
+         <value>0x16bc7</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1636">
          <name>FHIE_parseHie</name>
-         <value>0x10d13</value>
+         <value>0xfd13</value>
          <object_component_ref idref="oc-39e"/>
       </symbol>
       <symbol id="sm-1637">
          <name>macStartBegin</name>
-         <value>0x11841</value>
+         <value>0x10841</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1638">
          <name>macIdleSt</name>
-         <value>0x1d2a0</value>
+         <value>0x1c2a0</value>
          <object_component_ref idref="oc-3f6"/>
       </symbol>
       <symbol id="sm-1639">
          <name>macTimerCancel</name>
-         <value>0x19fb7</value>
+         <value>0x18fb7</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-163a">
          <name>FHNT_reset</name>
-         <value>0x1ab09</value>
+         <value>0x19b09</value>
          <object_component_ref idref="oc-467"/>
       </symbol>
       <symbol id="sm-163b">
@@ -13991,27 +13991,27 @@
       </symbol>
       <symbol id="sm-163c">
          <name>macTrackTimeoutCallback</name>
-         <value>0x16649</value>
+         <value>0x15649</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-163d">
          <name>macRxDisable</name>
-         <value>0x1bbff</value>
+         <value>0x1abff</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-163e">
          <name>macRxHardDisable</name>
-         <value>0x1bb5b</value>
+         <value>0x1ab5b</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-163f">
          <name>macSymbolTimerCount</name>
-         <value>0x19835</value>
+         <value>0x18835</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-1640">
          <name>macRxAckTxDoneCallback</name>
-         <value>0x13d4d</value>
+         <value>0x12d4d</value>
          <object_component_ref idref="oc-33c"/>
       </symbol>
       <symbol id="sm-1641">
@@ -14021,47 +14021,47 @@
       </symbol>
       <symbol id="sm-1642">
          <name>macRadioTxCancelAckTimeout</name>
-         <value>0x13351</value>
+         <value>0x12351</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1643">
          <name>macWrapperAddKeyInitFCtr</name>
-         <value>0x14ecd</value>
+         <value>0x13ecd</value>
          <object_component_ref idref="oc-30b"/>
       </symbol>
       <symbol id="sm-1644">
          <name>MAC_MlmeGetSecurityReqSize</name>
-         <value>0x1993b</value>
+         <value>0x1893b</value>
          <object_component_ref idref="oc-2f9"/>
       </symbol>
       <symbol id="sm-1645">
          <name>FHDH1CF_getChannelNum</name>
-         <value>0x1ba61</value>
+         <value>0x1aa61</value>
          <object_component_ref idref="oc-51e"/>
       </symbol>
       <symbol id="sm-1646">
          <name>macExecute</name>
-         <value>0x1a257</value>
+         <value>0x19257</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-1647">
          <name>macBeaconStopTrack</name>
-         <value>0x164c9</value>
+         <value>0x154c9</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-1648">
          <name>macStartResponseTimer</name>
-         <value>0x16d8d</value>
+         <value>0x15d8d</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1649">
          <name>macCbackEventTbl</name>
-         <value>0x1cf6c</value>
+         <value>0x1bf6c</value>
          <object_component_ref idref="oc-3c6"/>
       </symbol>
       <symbol id="sm-164a">
          <name>macTxAckNotReceivedCallback</name>
-         <value>0x14ca9</value>
+         <value>0x13ca9</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-164b">
@@ -14071,37 +14071,37 @@
       </symbol>
       <symbol id="sm-164c">
          <name>macSymbolTimerSetTriggerRollover</name>
-         <value>0x197c9</value>
+         <value>0x187c9</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-164d">
          <name>macRatCb_B</name>
-         <value>0x1606d</value>
+         <value>0x1506d</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-164e">
          <name>macApiSyncReq</name>
-         <value>0x166bd</value>
+         <value>0x156bd</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-164f">
          <name>macRatCb_A</name>
-         <value>0x16049</value>
+         <value>0x15049</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-1650">
          <name>FHUTIL_getTxUfsi</name>
-         <value>0x19245</value>
+         <value>0x18245</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-1651">
          <name>macApiBeaconStartReq</name>
-         <value>0x174e5</value>
+         <value>0x164e5</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-1652">
          <name>osal_msg_enqueue_max</name>
-         <value>0x15873</value>
+         <value>0x14873</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-1653">
@@ -14111,17 +14111,17 @@
       </symbol>
       <symbol id="sm-1654">
          <name>macDestSAddrCmp</name>
-         <value>0xf2b1</value>
+         <value>0xe2b1</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1655">
          <name>macFsCb</name>
-         <value>0x15dc7</value>
+         <value>0x14dc7</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-1656">
          <name>osalTimerInit</name>
-         <value>0x1be55</value>
+         <value>0x1ae55</value>
          <object_component_ref idref="oc-2d6"/>
       </symbol>
       <symbol id="sm-1657">
@@ -14131,22 +14131,22 @@
       </symbol>
       <symbol id="sm-1658">
          <name>osal_self</name>
-         <value>0x157a1</value>
+         <value>0x147a1</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-1659">
          <name>macPibIndex</name>
-         <value>0x1ad3d</value>
+         <value>0x19d3d</value>
          <object_component_ref idref="oc-305"/>
       </symbol>
       <symbol id="sm-165a">
          <name>macBeaconRequeue</name>
-         <value>0x1b121</value>
+         <value>0x1a121</value>
          <object_component_ref idref="oc-3d1"/>
       </symbol>
       <symbol id="sm-165b">
          <name>FHIE_extractPie</name>
-         <value>0x10299</value>
+         <value>0xf299</value>
          <object_component_ref idref="oc-39e"/>
       </symbol>
       <symbol id="sm-165c">
@@ -14156,32 +14156,32 @@
       </symbol>
       <symbol id="sm-165d">
          <name>macAssociatingSt</name>
-         <value>0x1cffa</value>
+         <value>0x1bffa</value>
          <object_component_ref idref="oc-3c6"/>
       </symbol>
       <symbol id="sm-165e">
          <name>macBeaconSetPrepareTime</name>
-         <value>0x172eb</value>
+         <value>0x162eb</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-165f">
          <name>macStateIdleOrPolling</name>
-         <value>0x1a053</value>
+         <value>0x19053</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-1660">
          <name>osalInitTasks</name>
-         <value>0x1bfc7</value>
+         <value>0x1afc7</value>
          <object_component_ref idref="oc-4f"/>
       </symbol>
       <symbol id="sm-1661">
          <name>osal_clear_event</name>
-         <value>0x15679</value>
+         <value>0x14679</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-1662">
          <name>macPollDataRxInd</name>
-         <value>0x16e6b</value>
+         <value>0x15e6b</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-1663">
@@ -14191,27 +14191,27 @@
       </symbol>
       <symbol id="sm-1664">
          <name>macKeySourceLen</name>
-         <value>0x1d3c8</value>
+         <value>0x1c3c8</value>
          <object_component_ref idref="oc-3cd"/>
       </symbol>
       <symbol id="sm-1665">
          <name>MAC_MlmeFHGetReqSize</name>
-         <value>0xf327</value>
+         <value>0xe327</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1666">
          <name>macBuildDisassociateReq</name>
-         <value>0xfa79</value>
+         <value>0xea79</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1667">
          <name>macRadioComputeLQI</name>
-         <value>0x17be1</value>
+         <value>0x16be1</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1668">
          <name>txComplete</name>
-         <value>0x14bad</value>
+         <value>0x13bad</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-1669">
@@ -14226,7 +14226,7 @@
       </symbol>
       <symbol id="sm-166b">
          <name>macMainReset</name>
-         <value>0x1a151</value>
+         <value>0x19151</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-166c">
@@ -14236,37 +14236,37 @@
       </symbol>
       <symbol id="sm-166d">
          <name>macApiDisassociateReq</name>
-         <value>0xfb47</value>
+         <value>0xeb47</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-166e">
          <name>macIncomingKeyUsagePolicyChecking</name>
-         <value>0x14193</value>
+         <value>0x13193</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-166f">
          <name>macRadioPowerUp</name>
-         <value>0x17e19</value>
+         <value>0x16e19</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1670">
          <name>macPendAddrLen</name>
-         <value>0x1155f</value>
+         <value>0x1055f</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-1671">
          <name>macSecurityPibReset</name>
-         <value>0x1997f</value>
+         <value>0x1897f</value>
          <object_component_ref idref="oc-2f9"/>
       </symbol>
       <symbol id="sm-1672">
          <name>FHNT_getEntry</name>
-         <value>0x1abdb</value>
+         <value>0x19bdb</value>
          <object_component_ref idref="oc-467"/>
       </symbol>
       <symbol id="sm-1673">
          <name>NOROM_TRNGNumberGet</name>
-         <value>0x1ca45</value>
+         <value>0x1ba45</value>
          <object_component_ref idref="oc-370"/>
       </symbol>
       <symbol id="sm-1674">
@@ -14276,7 +14276,7 @@
       </symbol>
       <symbol id="sm-1675">
          <name>macRadioSwInit</name>
-         <value>0x179ab</value>
+         <value>0x169ab</value>
          <object_component_ref idref="oc-392"/>
       </symbol>
       <symbol id="sm-1676">
@@ -14291,7 +14291,7 @@
       </symbol>
       <symbol id="sm-1678">
          <name>macStateScanning</name>
-         <value>0x1a045</value>
+         <value>0x19045</value>
          <object_component_ref idref="oc-311"/>
       </symbol>
       <symbol id="sm-1679">
@@ -14301,7 +14301,7 @@
       </symbol>
       <symbol id="sm-167a">
          <name>HalTRNG_InitTRNG</name>
-         <value>0x1c799</value>
+         <value>0x1b799</value>
          <object_component_ref idref="oc-1f5"/>
       </symbol>
       <symbol id="sm-167b">
@@ -14311,22 +14311,22 @@
       </symbol>
       <symbol id="sm-167c">
          <name>macBeaconCheckTxTime</name>
-         <value>0x1b0bb</value>
+         <value>0x1a0bb</value>
          <object_component_ref idref="oc-3d1"/>
       </symbol>
       <symbol id="sm-167d">
          <name>macPollRxAssocRsp</name>
-         <value>0x16e57</value>
+         <value>0x15e57</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-167e">
          <name>FHDH1CF_getTxChannelNum</name>
-         <value>0x1bb21</value>
+         <value>0x1ab21</value>
          <object_component_ref idref="oc-51e"/>
       </symbol>
       <symbol id="sm-167f">
          <name>macBuildCoexistEBeaconReq</name>
-         <value>0x10059</value>
+         <value>0xf059</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1680">
@@ -14341,7 +14341,7 @@
       </symbol>
       <symbol id="sm-1682">
          <name>macBuildEnhanceBeaconReq</name>
-         <value>0xff7f</value>
+         <value>0xef7f</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1683">
@@ -14351,67 +14351,67 @@
       </symbol>
       <symbol id="sm-1684">
          <name>macMgmtReset</name>
-         <value>0xf425</value>
+         <value>0xe425</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-1685">
          <name>osal_next_timeout</name>
-         <value>0x1be5d</value>
+         <value>0x1ae5d</value>
          <object_component_ref idref="oc-2d6"/>
       </symbol>
       <symbol id="sm-1686">
          <name>FHMGR_bcTimerIsrCb</name>
-         <value>0x1a54b</value>
+         <value>0x1954b</value>
          <object_component_ref idref="oc-461"/>
       </symbol>
       <symbol id="sm-1687">
          <name>macSymbolTimerSetCount</name>
-         <value>0x19645</value>
+         <value>0x18645</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-1688">
          <name>macRxSoftDisable</name>
-         <value>0x1bc2f</value>
+         <value>0x1ac2f</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-1689">
          <name>__aeabi_ldiv0</name>
-         <value>0x1b993</value>
+         <value>0x1a993</value>
          <object_component_ref idref="oc-511"/>
       </symbol>
       <symbol id="sm-168a">
          <name>macRadioLbtTxCb</name>
-         <value>0x130a5</value>
+         <value>0x120a5</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-168b">
          <name>FH_startEDFETimer</name>
-         <value>0x1a603</value>
+         <value>0x19603</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-168c">
          <name>macBeaconStartFrameResponseTimer</name>
-         <value>0x16571</value>
+         <value>0x15571</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-168d">
          <name>macRxBeaconCritical</name>
-         <value>0x16a11</value>
+         <value>0x15a11</value>
          <object_component_ref idref="oc-213"/>
       </symbol>
       <symbol id="sm-168e">
          <name>MAC_MlmeGetPointerSecurityReq</name>
-         <value>0x19913</value>
+         <value>0x18913</value>
          <object_component_ref idref="oc-2f9"/>
       </symbol>
       <symbol id="sm-168f">
          <name>macTxFrameIsr</name>
-         <value>0x14b83</value>
+         <value>0x13b83</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-1690">
          <name>macRxFrameIsr</name>
-         <value>0x136f1</value>
+         <value>0x126f1</value>
          <object_component_ref idref="oc-33c"/>
       </symbol>
       <symbol id="sm-1691">
@@ -14421,7 +14421,7 @@
       </symbol>
       <symbol id="sm-1692">
          <name>macRadioTxRequestAckTimeout</name>
-         <value>0x13075</value>
+         <value>0x12075</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-1693">
@@ -14436,22 +14436,22 @@
       </symbol>
       <symbol id="sm-1695">
          <name>macMcuOverflowSetCompare</name>
-         <value>0x1b481</value>
+         <value>0x1a481</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-1696">
          <name>macOutgoingNonSlottedTx</name>
-         <value>0x176a5</value>
+         <value>0x166a5</value>
          <object_component_ref idref="oc-219"/>
       </symbol>
       <symbol id="sm-1697">
          <name>macSendReceiveCmd</name>
-         <value>0x16199</value>
+         <value>0x15199</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-1698">
          <name>osal_msg_deallocate</name>
-         <value>0x158b9</value>
+         <value>0x148b9</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-1699">
@@ -14461,17 +14461,17 @@
       </symbol>
       <symbol id="sm-169a">
          <name>macMRFSKStdPhyTable</name>
-         <value>0x1cc3c</value>
+         <value>0x1bc3c</value>
          <object_component_ref idref="oc-41d"/>
       </symbol>
       <symbol id="sm-169b">
          <name>FH_startEDFEReq</name>
-         <value>0x1a605</value>
+         <value>0x19605</value>
          <object_component_ref idref="oc-473"/>
       </symbol>
       <symbol id="sm-169c">
          <name>macRxCheckPendingCallback</name>
-         <value>0x122fb</value>
+         <value>0x112fb</value>
          <object_component_ref idref="oc-2ff"/>
       </symbol>
       <symbol id="sm-169d">
@@ -14481,12 +14481,12 @@
       </symbol>
       <symbol id="sm-169e">
          <name>macRadioTxGoLbt</name>
-         <value>0x13001</value>
+         <value>0x12001</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-169f">
          <name>macWrapperGetDefaultSourceKey</name>
-         <value>0x14fed</value>
+         <value>0x13fed</value>
          <object_component_ref idref="oc-30b"/>
       </symbol>
       <symbol id="sm-16a0">
@@ -14496,7 +14496,7 @@
       </symbol>
       <symbol id="sm-16a1">
          <name>osal_run_system</name>
-         <value>0x15bf1</value>
+         <value>0x14bf1</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-16a2">
@@ -14506,12 +14506,12 @@
       </symbol>
       <symbol id="sm-16a3">
          <name>FHIE_gen</name>
-         <value>0x10cf3</value>
+         <value>0xfcf3</value>
          <object_component_ref idref="oc-39e"/>
       </symbol>
       <symbol id="sm-16a4">
          <name>macIeFreeList</name>
-         <value>0x1b8bb</value>
+         <value>0x1a8bb</value>
          <object_component_ref idref="oc-3b9"/>
       </symbol>
       <symbol id="sm-16a5">
@@ -14521,7 +14521,7 @@
       </symbol>
       <symbol id="sm-16a6">
          <name>macTimerInit</name>
-         <value>0x19db5</value>
+         <value>0x18db5</value>
          <object_component_ref idref="oc-398"/>
       </symbol>
       <symbol id="sm-16a7">
@@ -14531,22 +14531,22 @@
       </symbol>
       <symbol id="sm-16a8">
          <name>macRatDisableChannels</name>
-         <value>0x163d9</value>
+         <value>0x153d9</value>
          <object_component_ref idref="oc-1ef"/>
       </symbol>
       <symbol id="sm-16a9">
          <name>macMRFSKGetPhyDesc</name>
-         <value>0x1ad5b</value>
+         <value>0x19d5b</value>
          <object_component_ref idref="oc-305"/>
       </symbol>
       <symbol id="sm-16aa">
          <name>macScanRxCoordRealign</name>
-         <value>0x1854b</value>
+         <value>0x1754b</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-16ab">
          <name>FHAPI_start</name>
-         <value>0x18b53</value>
+         <value>0x17b53</value>
          <object_component_ref idref="oc-357"/>
       </symbol>
       <symbol id="sm-16ac">
@@ -14556,17 +14556,17 @@
       </symbol>
       <symbol id="sm-16ad">
          <name>osal_start_system</name>
-         <value>0x15d49</value>
+         <value>0x14d49</value>
          <object_component_ref idref="oc-1e3"/>
       </symbol>
       <symbol id="sm-16ae">
          <name>macTxChannelBusyCallback</name>
-         <value>0x14a09</value>
+         <value>0x13a09</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-16af">
          <name>macDefaultAction</name>
-         <value>0x100df</value>
+         <value>0xf0df</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-16b0">
@@ -14581,7 +14581,7 @@
       </symbol>
       <symbol id="sm-16b2">
          <name>osalAdjustTimer</name>
-         <value>0x1c6a3</value>
+         <value>0x1b6a3</value>
          <object_component_ref idref="oc-2ef"/>
       </symbol>
       <symbol id="sm-16b3">
@@ -14591,52 +14591,52 @@
       </symbol>
       <symbol id="sm-16b4">
          <name>macCcmStarInverseTransform</name>
-         <value>0x1459d</value>
+         <value>0x1359d</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-16b5">
          <name>macTxFrameRetransmit</name>
-         <value>0x149a1</value>
+         <value>0x139a1</value>
          <object_component_ref idref="oc-3de"/>
       </symbol>
       <symbol id="sm-16b6">
          <name>__TI_decompress_none</name>
-         <value>0x1ca55</value>
+         <value>0x1ba55</value>
          <object_component_ref idref="oc-15"/>
       </symbol>
       <symbol id="sm-16b7">
          <name>macRxCoordRealign</name>
-         <value>0x16c31</value>
+         <value>0x15c31</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-16b8">
          <name>MAC_Init</name>
-         <value>0x100f3</value>
+         <value>0xf0f3</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-16b9">
          <name>MAC_MlmeAssociateRsp</name>
-         <value>0x11a01</value>
+         <value>0x10a01</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-16ba">
          <name>macRxOffRequest</name>
-         <value>0x1bc51</value>
+         <value>0x1ac51</value>
          <object_component_ref idref="oc-342"/>
       </symbol>
       <symbol id="sm-16bb">
          <name>macRadioTxEnhAckCb</name>
-         <value>0x1301d</value>
+         <value>0x1201d</value>
          <object_component_ref idref="oc-3b0"/>
       </symbol>
       <symbol id="sm-16bc">
          <name>macBuildEBeaconNotifyInd</name>
-         <value>0xfddd</value>
+         <value>0xeddd</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-16bd">
          <name>macRadioRandomByte</name>
-         <value>0x1b439</value>
+         <value>0x1a439</value>
          <object_component_ref idref="oc-317"/>
       </symbol>
       <symbol id="sm-16be">
@@ -14646,7 +14646,7 @@
       </symbol>
       <symbol id="sm-16bf">
          <name>MAC_InitDevice</name>
-         <value>0x17059</value>
+         <value>0x16059</value>
          <object_component_ref idref="oc-207"/>
       </symbol>
       <symbol id="sm-16c0">
@@ -14656,32 +14656,32 @@
       </symbol>
       <symbol id="sm-16c1">
          <name>macScanComplete</name>
-         <value>0x18769</value>
+         <value>0x17769</value>
          <object_component_ref idref="oc-31d"/>
       </symbol>
       <symbol id="sm-16c2">
          <name>NOROM_TRNGConfigure</name>
-         <value>0x1c9b1</value>
+         <value>0x1b9b1</value>
          <object_component_ref idref="oc-36a"/>
       </symbol>
       <symbol id="sm-16c3">
          <name>macSymbolTimerCancelTrigger</name>
-         <value>0x196b9</value>
+         <value>0x186b9</value>
          <object_component_ref idref="oc-348"/>
       </symbol>
       <symbol id="sm-16c4">
          <name>FHUTIL_updateBcNumChannels</name>
-         <value>0x19071</value>
+         <value>0x18071</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-16c5">
          <name>FHUTIL_getCurUfsi</name>
-         <value>0x19097</value>
+         <value>0x18097</value>
          <object_component_ref idref="oc-46d"/>
       </symbol>
       <symbol id="sm-16c6">
          <name>macApiOrphanRsp</name>
-         <value>0x113b3</value>
+         <value>0x103b3</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-16c7">
@@ -14691,22 +14691,22 @@
       </symbol>
       <symbol id="sm-16c8">
          <name>macBuildAssociateRsp</name>
-         <value>0x11639</value>
+         <value>0x10639</value>
          <object_component_ref idref="oc-20d"/>
       </symbol>
       <symbol id="sm-16c9">
          <name>macUpdatePanId</name>
-         <value>0x13e01</value>
+         <value>0x12e01</value>
          <object_component_ref idref="oc-323"/>
       </symbol>
       <symbol id="sm-16ca">
          <name>macIsCsmOperational</name>
-         <value>0xf3b3</value>
+         <value>0xe3b3</value>
          <object_component_ref idref="oc-201"/>
       </symbol>
       <symbol id="sm-16cb">
          <name>__TI_static_base__</name>
-         <value>0x1d408</value>
+         <value>0x1c408</value>
       </symbol>
       <symbol id="sm-16ce">
          <name>SHT$$INIT_ARRAY$$Limit</name>

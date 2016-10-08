@@ -16,6 +16,7 @@
                     <property Type="stringfield" Value="L2000195" id="-- Enter the serial number"/>
                 </choice>
             </property>
+            <property Type="choicelist" Value="1" id="The JTAG TCLK Frequency (MHz)"/>
             <platform XML_version="1.2" id="platform_0">
                 <instance XML_version="1.2" desc="CC1310F128_0" href="devices/cc1310f128.xml" id="CC1310F128_0" xml="cc1310f128.xml" xmlpath="devices"/>
             </platform>
