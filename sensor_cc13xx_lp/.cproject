@@ -68,6 +68,7 @@
 									<listOptionValue builtIn="false" value="&quot;${CC13XXWARE}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CC13XXWARE}/inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CC13XXWARE}/driverlib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Git\PAN\Include_Files\Sensor&quot;"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEBUGGING_MODEL.243665211" name="Debugging model" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEBUGGING_MODEL" value="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.DEBUGGING_MODEL.SYMDEBUG__DWARF" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.C_DIALECT.1982143095" name="C Dialect" superClass="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.C_DIALECT" value="com.ti.ccstudio.buildDefinitions.TMS470_5.2.compilerID.C_DIALECT.C99" valueType="enumerated"/>

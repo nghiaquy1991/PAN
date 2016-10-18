@@ -142,6 +142,16 @@
 			<locationURI>MAC_APPS/common/util/timer.h</locationURI>
 		</link>
 		<link>
+			<name>Application/uart_debug.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Include_Files/Sensor/uart_debug.c</locationURI>
+		</link>
+		<link>
+			<name>Application/uart_debug.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Include_Files/Sensor/uart_debug.h</locationURI>
+		</link>
+		<link>
 			<name>Application/util.c</name>
 			<type>1</type>
 			<locationURI>MAC_APPS/common/util/util.c</locationURI>

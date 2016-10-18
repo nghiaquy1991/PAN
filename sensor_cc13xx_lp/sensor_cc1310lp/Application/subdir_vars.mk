@@ -12,6 +12,7 @@ C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/sensor/src/main.c \
 C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/sensor/src/sensor.c \
 C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/sensor/src/ssf.c \
 C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/common/util/timer.c \
+D:/Git/PAN/Include_Files/Sensor/uart_debug.c \
 C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/common/util/util.c 
 
 OBJS += \
@@ -23,6 +24,7 @@ C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/main.obj \
 C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/sensor.obj \
 C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/ssf.obj \
 C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/timer.obj \
+C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/uart_debug.obj \
 C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/util.obj 
 
 C_DEPS += \
@@ -34,6 +36,7 @@ C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/Application/main.d \
 C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/Application/sensor.d \
 C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/Application/ssf.d \
 C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/Application/timer.d \
+C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/Application/uart_debug.d \
 C:/Users/nghia/workspace/sensor_cc13xx_lp/sensor_cc1310lp/Application/util.d 
 
 C_DEPS__QUOTED += \
@@ -45,6 +48,7 @@ C_DEPS__QUOTED += \
 "C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\Application\sensor.d" \
 "C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\Application\ssf.d" \
 "C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\Application\timer.d" \
+"C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\Application\uart_debug.d" \
 "C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\Application\util.d" 
 
 OBJS__QUOTED += \
@@ -56,6 +60,7 @@ OBJS__QUOTED += \
 "C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\sensor.obj" \
 "C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\ssf.obj" \
 "C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\timer.obj" \
+"C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\uart_debug.obj" \
 "C:\Users\nghia\workspace\sensor_cc13xx_lp\sensor_cc1310lp\util.obj" 
 
 C_SRCS__QUOTED += \
@@ -67,6 +72,7 @@ C_SRCS__QUOTED += \
 "C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/sensor/src/sensor.c" \
 "C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/sensor/src/ssf.c" \
 "C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/common/util/timer.c" \
+"D:/Git/PAN/Include_Files/Sensor/uart_debug.c" \
 "C:/ti/simplelink/ti-15.4-stack-sdk_2_00_00_25/examples/common/util/util.c" 
 
 
